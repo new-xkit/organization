@@ -1,0 +1,314 @@
+[2016-01-17 01:38 AM UTC] nightpool: okay. hey guys!
+[2016-01-17 01:38 AM UTC] nightpool: thanks for sitting through our super long discussion LOL
+[2016-01-17 01:38 AM UTC] hobinjk: Can someone make a post on -extension?
+[2016-01-17 01:39 AM UTC] nightpool: @hobinjk doing it
+[2016-01-17 01:39 AM UTC] Wolvan: @everyone Q&A begins
+[2016-01-17 01:39 AM UTC] Wolvan: one after another pls
+[2016-01-17 01:39 AM UTC] ThePsionic: We planned 2 hours, it became 3 1/2 or so 😛
+[2016-01-17 01:39 AM UTC] Goataku - Toa697: i tuned out around the CoC part but eh.
+[2016-01-17 01:39 AM UTC] IThinkIBrokeIt: I kinda tuned out also, ahem
+[2016-01-17 01:39 AM UTC] nightpool: So yeah, someone get a question out there.
+[2016-01-17 01:39 AM UTC] Mint: I didn't tune out at all but i did get lost at point lmao
+[2016-01-17 01:39 AM UTC] IThinkIBrokeIt: Did see enough that the two questions I had already got answered >.>
+[2016-01-17 01:39 AM UTC] nightpool: Please be respectful, and don't type while we're answering someone else's question. that's all!
+[2016-01-17 01:40 AM UTC] Mint: any plans on making the chrome extension available to download as a standalone for opera users?
+[2016-01-17 01:40 AM UTC] Mint: having to install a second extension to install xkit is er, clunky
+[2016-01-17 01:40 AM UTC] Wolvan: You can do so from our releases page on github already, can't you?
+[2016-01-17 01:40 AM UTC] Mint: oh you can?
+[2016-01-17 01:40 AM UTC] ThePsionic: Yes, just not the latest release
+[2016-01-17 01:40 AM UTC] ThePsionic: Since it's FF-only
+[2016-01-17 01:40 AM UTC] Mint: It isn't very visible then
+[2016-01-17 01:40 AM UTC] Wolvan: ah ok
+[2016-01-17 01:40 AM UTC] Wolvan: did we never upload 7.7.1 to github?
+[2016-01-17 01:41 AM UTC] blackjackkent: @Wolvan don't you still have to install a separate extension for that?
+[2016-01-17 01:41 AM UTC] ThePsionic: https://github.com/new-xkit/XKit/releases/tag/v7.7.1
+[2016-01-17 01:41 AM UTC] ThePsionic: We did
+[2016-01-17 01:41 AM UTC] nightpool: It should be there, but it might not have a build artifact
+[2016-01-17 01:41 AM UTC] ThePsionic: It does
+[2016-01-17 01:41 AM UTC] Wolvan: no, the seperate extension is to install from chrome's webstore
+[2016-01-17 01:41 AM UTC] blackjackkent: right. their question is something that doesn't install that
+[2016-01-17 01:41 AM UTC] blackjackkent: unfortuantely i think that's an opera infrastructure thing
+[2016-01-17 01:41 AM UTC] nightpool: @blackjackkent right, and you can do that from the github page
+[2016-01-17 01:41 AM UTC] blackjackkent: ah
+[2016-01-17 01:42 AM UTC] IThinkIBrokeIt: oh which reminds me, Vivaldi also exists (in terms of browsers), but 1. it's still in beta 2. it can install straight off the chrome webstore so it's more of a footnote really
+[2016-01-17 01:42 AM UTC] nightpool: @Mint we'll look into making that link more visible, but I think for auto-updating purposes we'd really much rather you be installing from the webstore
+[2016-01-17 01:42 AM UTC] Wolvan: if it can install .crx files
+[2016-01-17 01:42 AM UTC] nightpool: That's the main difference between the two, I think.
+[2016-01-17 01:42 AM UTC] Wolvan: you can install from github afaik
+[2016-01-17 01:43 AM UTC] ThePsionic: @IThinkIBrokeIt If it works without us having to do extra work we're always happy ;P
+[2016-01-17 01:43 AM UTC] IThinkIBrokeIt: hehe
+[2016-01-17 01:43 AM UTC] Goataku - Toa697: one way to think about it i guess
+[2016-01-17 01:43 AM UTC] Mint: Gotcha. Thank you! It's no skin off my back since I have other extensions I need the installer for, but it's something that bothers me especially since there are other users
+[2016-01-17 01:43 AM UTC] nightpool: okay—anyone else?
+[2016-01-17 01:43 AM UTC] IThinkIBrokeIt: if anything at all breaks I'll let y'all know but so far it's been smooth sailing
+[2016-01-17 01:43 AM UTC] Goataku - Toa697: are there currently any plans on fixing music player?
+[2016-01-17 01:43 AM UTC] Wolvan: music players?
+[2016-01-17 01:43 AM UTC] nightpool: @Goataku - Toa697 can you be more specific?
+[2016-01-17 01:43 AM UTC] nightpool: not sure what you're talking about
+[2016-01-17 01:44 AM UTC] Goataku - Toa697: tumblrs audio posts literally just dont play sometimes
+[2016-01-17 01:44 AM UTC] hobinjk: Audio+?
+[2016-01-17 01:44 AM UTC] ThePsionic: That's tumblr's fault
+[2016-01-17 01:44 AM UTC] Wolvan: tumblr bug afaik
+[2016-01-17 01:44 AM UTC] blackjackkent: I'm not sure we have an issue about audio player atm; probably we'd like you to swing into our support chat if you're having specific issues. It's probably a tumblr bug though.
+[2016-01-17 01:44 AM UTC] Mint: But they play when you visit a user's blog, so it could be theoretically fixable
+[2016-01-17 01:44 AM UTC] Wolvan: it's a problem with their x-origin-policies
+[2016-01-17 01:44 AM UTC] nightpool: I haven't seen anything that looks like that, sorry.
+[2016-01-17 01:44 AM UTC] IThinkIBrokeIt: tumblr bug I'd wager, I've got nothing affecting the audio player installed and I've the same issue
+[2016-01-17 01:44 AM UTC] ThePsionic: They forgot to allow cross-site content on some of their asset servers
+[2016-01-17 01:44 AM UTC] nightpool: Oh! now I remember the x-origin one
+[2016-01-17 01:44 AM UTC] Wolvan: I know what it is @nightpool @blackjackkent
+[2016-01-17 01:44 AM UTC] ThePsionic: So it just doesn't work
+[2016-01-17 01:44 AM UTC] blackjackkent: ahh
+[2016-01-17 01:44 AM UTC] nightpool: Did you report it to support?
+[2016-01-17 01:44 AM UTC] blackjackkent: Yes, that's definitely tumblr, then.
+[2016-01-17 01:44 AM UTC] ThePsionic: I did, never got an answer
+[2016-01-17 01:45 AM UTC] nightpool: @ThePsionic might be useful to follow up on
+[2016-01-17 01:46 AM UTC] nightpool: okay, anyone else?
+[2016-01-17 01:46 AM UTC] IThinkIBrokeIt: probably a stupid / irrelevant / not-for-here question but
+[2016-01-17 01:46 AM UTC] IThinkIBrokeIt: XKit doesn't load at all on the settings page (either settings/account or settings/blog/[whatever blog]). intended, bug, ...?
+[2016-01-17 01:47 AM UTC] nightpool: Yes, that's intended.
+[2016-01-17 01:47 AM UTC] blackjackkent: indended, i believe
+[2016-01-17 01:47 AM UTC] blackjackkent: *intended
+[2016-01-17 01:47 AM UTC] blackjackkent: we don't want to have anything to do with people's blog settings
+[2016-01-17 01:47 AM UTC] Wolvan: it's to not comprimise data
+[2016-01-17 01:47 AM UTC] IThinkIBrokeIt: ahhh okay, that makes sense
+[2016-01-17 01:47 AM UTC] Literary-Lion: Are there any plans to introduce something to organize followers/following? (ex. Rearrange to most - > least active, A-Z, Most reblogs from you -> least)?
+[2016-01-17 01:48 AM UTC] blackjackkent: I don't think we've discussed anything with that (aside from the "find inactives" extension). But feel free to submit feature suggestions in github 😄
+[2016-01-17 01:48 AM UTC] blackjackkent: or through an ask
+[2016-01-17 01:48 AM UTC] blackjackkent: or gitter
+[2016-01-17 01:49 AM UTC] Wolvan: Issue on GH recommended
+[2016-01-17 01:50 AM UTC] rascus: Re: Followers: Any plans for a better search function for followers? (e.g. one that actually does partial string matching?)
+[2016-01-17 01:50 AM UTC] blackjackkent: Same response as above 😃
+[2016-01-17 01:50 AM UTC] Wack'd: I asked for this in the IRC at one point, but would it be possible to bring back the ability to reblog Chat and Quote posts as plain Text?
+[2016-01-17 01:50 AM UTC] blackjackkent: Questions about feature requests/bugs should probably go in our askbox/gitter instead of this chat please.
+[2016-01-17 01:51 AM UTC] nightpool: @Wack'd I've always liked that feature, but yeah again this is probably not the right place
+[2016-01-17 01:51 AM UTC] nightpool: and I don't know how feasible it is with backend changes tbh
+[2016-01-17 01:51 AM UTC] MKP: not sure if this is the kind of q the q & a is for, but i was wondering if there was a technical limitation that limited the number of tag bundles in the quicktags extension to only 20?
+[2016-01-17 01:51 AM UTC] MKP: oh oops, apologies
+[2016-01-17 01:52 AM UTC] Wolvan: I think it's a limitation we set in the extension due to storage or something?
+[2016-01-17 01:52 AM UTC] blackjackkent: again -- hit us up in our support chat and we can discuss that 😃
+[2016-01-17 01:52 AM UTC] nightpool: @blackjackkent I think as long as people are getting through pretty fast its okay to do a few feature stuff
+[2016-01-17 01:52 AM UTC] nightpool: as long as other people don't have more relevant questions
+[2016-01-17 01:52 AM UTC] blackjackkent: k. just trying to keep things rolling 😃
+[2016-01-17 01:52 AM UTC] Burgerpants: Burger pnts is here
+[2016-01-17 01:53 AM UTC] guru: I'm super not tech savvy at all (and this might be the wrong place to ask?) but would it ever be possible to make it so sideblogs could send asks? Not sure if an extension would even be able to accomplish something like that but I'm curious either way
+[2016-01-17 01:53 AM UTC] Burgerpants: Hi again @ThePsionic
+[2016-01-17 01:53 AM UTC] ThePsionic: Hey 😛
+[2016-01-17 01:54 AM UTC] Wolvan: not possible, @guru
+[2016-01-17 01:54 AM UTC] ThePsionic: I doubt Tumblr's backend allows that, @guru
+[2016-01-17 01:54 AM UTC] IThinkIBrokeIt: messages can be sent from any blog to any blog, that's the closest it comes
+[2016-01-17 01:54 AM UTC] blackjackkent: Yeah, we have no authority over how Tumblr's backend works.
+[2016-01-17 01:54 AM UTC] blackjackkent: (I'm gonna need to roll shortly; perhaps we can wrap up?)
+[2016-01-17 01:54 AM UTC] guru: ahhhh I didn't think so but I was still curious :3 thanks
+[2016-01-17 01:55 AM UTC] ThePsionic: @blackjackkent Questions can be answered by whoever lingers, the official part is done 😛
+[2016-01-17 01:55 AM UTC] hobinjk: Any objections to officially ending in 6 minutes? (at the hour)
+[2016-01-17 01:55 AM UTC] blackjackkent: fine with me.
+[2016-01-17 01:55 AM UTC] Wolvan: none on my sides
+[2016-01-17 01:55 AM UTC] nightpool: 👍
+[2016-01-17 01:55 AM UTC] rascus: Will there be a summary of what was discussed on the blog?
+[2016-01-17 01:55 AM UTC] ThePsionic: 👍
+[2016-01-17 01:55 AM UTC] rascus: for people who couldn't make it?
+[2016-01-17 01:55 AM UTC] Burgerpants: man I was late 😦
+[2016-01-17 01:55 AM UTC] nightpool: @rascus most of it was developer facing to be completely honest
+[2016-01-17 01:55 AM UTC] Mint: @rascus It was mostly internal stuff
+[2016-01-17 01:55 AM UTC] ThePsionic: @rascus A transcript will be uploaded to one of our repos
+[2016-01-17 01:56 AM UTC] nightpool: You can see most of the followup issues we filed here: https://github.com/new-xkit/organization/issues
+[2016-01-17 01:56 AM UTC] hobinjk: We could then post a link to that transcript to -extension as part of a self-congratulatory Town Hall tl;dr post
+[2016-01-17 01:56 AM UTC] contentmint: is there any news on logging/exporting messages?
+[2016-01-17 01:56 AM UTC] steph: Apologies if this has been brought up already but what's the status as far as a mobile app?
+[2016-01-17 01:56 AM UTC] Wolvan: in messaging tweak, @contentmint ? No, haven't looked into it yet
+[2016-01-17 01:56 AM UTC] ThePsionic: @steph New XKit works on FF for Android, for the rest no plans
+[2016-01-17 01:57 AM UTC] nightpool: @steph Unfortunately only the desktop extension was made open source by Atesh (the proverbial “xkit guy”), so we only have the ability to continue the desktop app. The iPhone app that was written by the same developer, but was completely separate from the desktop version as far as the coding goes.
+[2016-01-17 01:57 AM UTC] Burgerpants: How does everyone feel of Poke's following the mouse like the XNeko ap?
+[2016-01-17 01:57 AM UTC] Burgerpants: *app
+[2016-01-17 01:57 AM UTC] nightpool: @Burgerpants probably want to take that to general or support.
+[2016-01-17 01:57 AM UTC] Wolvan: something we might think about
+[2016-01-17 01:57 AM UTC] Wolvan: or rather I
+[2016-01-17 01:57 AM UTC] ThePsionic: *side-eyes @Wolvan*
+[2016-01-17 01:57 AM UTC] Wolvan: *glares at @ThePsionic*
+[2016-01-17 01:57 AM UTC] ThePsionic: great banter m8
+[2016-01-17 01:57 AM UTC] steph: @nightpool Yeah, I remember that being a huge problem but I meant in terms of you guys maybe creating a new one altogether?
+[2016-01-17 01:58 AM UTC] contentmint: thanks @Wolvan
+[2016-01-17 01:58 AM UTC] hobinjk: @steph It would be a significant undertaking, but not one that we've ruled out altogether. Unfortunately nobody has stepped up to take it on
+[2016-01-17 02:00 AM UTC] steph: @hobinjk True! And I don't mean to sound ungrateful by any means. You guys are lifesavers. I just happen to also be a very mobile user and for a while the XKit app worked alright but now it's just mostly useless so any way that I could get XKit to work on my mobile would be amazing.
+[2016-01-17 02:00 AM UTC] me: At some point in the past (maybe even when Missing e was prevalent) I had a follower checker extension to see who had unfollowed me. This doesn't seem to exist anywhere anymore. Any reason for this or possibility of introducing this to new xkit?
+[2016-01-17 02:01 AM UTC] Wolvan: because it was abused too often
+[2016-01-17 02:01 AM UTC] hobinjk: @steph FF for Android is a pretty good solution, but are you on iOS?
+[2016-01-17 02:01 AM UTC] Wolvan: we do not include it
+[2016-01-17 02:01 AM UTC] Burgerpants: I would like to see @steph  idea come true
+[2016-01-17 02:01 AM UTC] steph: @hobinjk Yup!
+[2016-01-17 02:01 AM UTC] Wolvan: please do not ask about any kind of follower checkers anymore
+[2016-01-17 02:01 AM UTC] me: Okay, just curious.
+[2016-01-17 02:01 AM UTC] nightpool: @Wolvan that's a little mean, it was just a question 😄
+[2016-01-17 02:01 AM UTC] Wolvan: wasn't supposed to sound mean, apologies
+[2016-01-17 02:01 AM UTC] hobinjk: SaltKit, coming to a Tumblr near you
+[2016-01-17 02:02 AM UTC] Burgerpants: @hobinjk i'd pay for it
+[2016-01-17 02:02 AM UTC] steph: @Burgerpants Same.
+[2016-01-17 02:02 AM UTC] nightpool: but yeah its a question we get a lot, and the only answer we really have is that it tumblr staff wasn't a very big fan of it, and it's just not the kidna thing we want to be making to be honest.
+[2016-01-17 02:02 AM UTC] Mint: an option in edible reblogs that turns the xkit logo into a little pile of salt
+[2016-01-17 02:02 AM UTC] Wolvan: ....Don't tempt me
+[2016-01-17 02:02 AM UTC] ThePsionic: Oh god
+[2016-01-17 02:02 AM UTC] Wolvan: don't make the mistake and tempt me like this
+[2016-01-17 02:03 AM UTC] Burgerpants: @Wolvan  JUST DO IT
+[2016-01-17 02:03 AM UTC] ThePsionic: You triggered the Wolvan
+[2016-01-17 02:03 AM UTC] hobinjk: Anyway, it is now past 9 PM, which means we are officially closed for business. Discussion can continue but I am no longer on the clock
+[2016-01-17 02:03 AM UTC] Mint: gnight hob!
+[2016-01-17 02:03 AM UTC] ThePsionic: Haha 😛
+[2016-01-17 02:03 AM UTC] Burgerpants: Boi @hobinjk
+[2016-01-17 02:03 AM UTC] blackjackkent: I'm rolling out. have a good night, all
+[2016-01-17 02:03 AM UTC] Kat: Goodnight!
+[2016-01-17 02:03 AM UTC] hobinjk: 'night all
+[2016-01-17 02:04 AM UTC] Burgerpants: bye @blackjackkent
+[2016-01-17 02:04 AM UTC] steph: Thanks guys!
+[2016-01-17 02:04 AM UTC] ThePsionic: Cya!
+[2016-01-17 02:04 AM UTC] hobinjk: Thank you all for your participation!
+[2016-01-17 02:04 AM UTC] Mint: thank you for hosting this!
+[2016-01-17 02:04 AM UTC] Burgerpants: @ThePsionic  Whens the wedding
+[2016-01-17 02:04 AM UTC] 0xazure: @everyone Just wanted to thank you all for coming out to our first Town Hall.  Hopefully it was informative, if a little long.
+[2016-01-17 02:04 AM UTC] ThePsionic: Yesterday
+[2016-01-17 02:04 AM UTC] ThePsionic: You missed it
+[2016-01-17 02:04 AM UTC] ThePsionic: How could you
+[2016-01-17 02:04 AM UTC] Burgerpants: @ThePsionic I'm so sorry
+[2016-01-17 02:04 AM UTC] Burgerpants: the worst friend
+[2016-01-17 02:04 AM UTC] Burgerpants: 😭
+[2016-01-17 02:06 AM UTC] nightpool: Okay, anyone else have any questions?
+[2016-01-17 02:06 AM UTC] ThePsionic: well
+[2016-01-17 02:06 AM UTC] ThePsionic: that was dark
+[2016-01-17 02:06 AM UTC] Mint: im mildly curious as to what pipeline is but I assume thats not something to really be answered : p
+[2016-01-17 02:06 AM UTC] nightpool: @Burgerpants please keep this on topic, thanks
+[2016-01-17 02:07 AM UTC] Burgerpants: @nightpool lol sorry
+[2016-01-17 02:07 AM UTC] lizzledpink: Hi all o/ Just to be clear about programming, etc -
+[2016-01-17 02:07 AM UTC] nightpool: hey lizzledpink!
+[2016-01-17 02:07 AM UTC] ThePsionic: @Mint it's the worst kept secret ever.
+[2016-01-17 02:07 AM UTC] Wolvan: lizzled, help me with Pokés pls
+[2016-01-17 02:07 AM UTC] 0xazure: @Mint it's something we've got going on in the background, but we're not quite ready to talk about it yet.
+[2016-01-17 02:07 AM UTC] lizzledpink: For people like me who sometimes but infreq. contribute it's going to be about the same w/r/t homu, push access, etc?
+[2016-01-17 02:07 AM UTC] Mint: I figured that was the answer haha
+[2016-01-17 02:08 AM UTC] nightpool: @lizzledpink Depends.
+[2016-01-17 02:08 AM UTC] Wolvan: If we add you to the team
+[2016-01-17 02:08 AM UTC] Burgerpants: @ThePsionic Can't even talk about the pipline to me friend 😦
+[2016-01-17 02:08 AM UTC] lizzledpink: @Wolvan I've been a little IRL swamped haha I'll get on the gitter and catch up sometime
+[2016-01-17 02:08 AM UTC] Wolvan: as we said, we nominate and put up to vote
+[2016-01-17 02:08 AM UTC] Burgerpants: jk don't wanna know
+[2016-01-17 02:08 AM UTC] Wolvan: @lizzledpink no worries, just joking
+[2016-01-17 02:08 AM UTC] nightpool: If you want to be nominated for the team, you can be, we have a good process for that now
+[2016-01-17 02:08 AM UTC] Wolvan: also, hope nobody minds that I made lizzled a pokemon profferssor
+[2016-01-17 02:08 AM UTC] lizzledpink: Gotcha... Idk if I necessarily need to be officially on the team (tm) but that's good to know!
+[2016-01-17 02:08 AM UTC] lizzledpink: Lol you what
+[2016-01-17 02:09 AM UTC] nightpool: Otherwise, it will be 100% the same
+[2016-01-17 02:09 AM UTC] nightpool: as far as getting approved by homu
+[2016-01-17 02:09 AM UTC] lizzledpink: Thanks @nightpool!
+[2016-01-17 02:09 AM UTC] nightpool: No problem
+[2016-01-17 02:09 AM UTC] Mint: What are you guys really looking for in people handling support?
+[2016-01-17 02:09 AM UTC] Wolvan: People knowing how to use Github's issue system
+[2016-01-17 02:09 AM UTC] bvtsang: @Mint People answering questions in the support Gitter as well as asks in the -support blog
+[2016-01-17 02:09 AM UTC] nightpool: @Mint anyone who has time and is reasonably good at talking to people, honestly.
+[2016-01-17 02:10 AM UTC] Wolvan: and people who know how to go through common troubleshooting
+[2016-01-17 02:10 AM UTC] Wolvan: you can lurk in the support chat
+[2016-01-17 02:10 AM UTC] Wolvan: and see what we usually get asked
+[2016-01-17 02:10 AM UTC] nightpool: the xkit versions of "did you turn it off and back on again"
+[2016-01-17 02:10 AM UTC] IThinkIBrokeIt: "why is my entire dashboard bread"
+[2016-01-17 02:10 AM UTC] Wolvan: and if you got time you can try taking over your own support cases
+[2016-01-17 02:10 AM UTC] Wolvan: yeah, that for example
+[2016-01-17 02:10 AM UTC] Wolvan: *whistles innocently*
+[2016-01-17 02:11 AM UTC] Wolvan: Bread? what bread?
+[2016-01-17 02:11 AM UTC] IThinkIBrokeIt: I think you and I have two very different meanings for the word "innocently"
+[2016-01-17 02:11 AM UTC] nightpool: Yeah, I'd say that if you're interested in helping out with support, come sign up for a gitter (https://gitter.im/new-xkit/XKit) and hang out in our support chat
+[2016-01-17 02:11 AM UTC] Wolvan: https://gitter.im/new-xkit/support
+[2016-01-17 02:12 AM UTC] Wolvan: that's our support channel
+[2016-01-17 02:13 AM UTC] nightpool: anyone else have any questions?
+[2016-01-17 02:15 AM UTC] Kat: what's your endgame for pokes? i've heard something about being able to battle? or something like that. i'm curious what you're planning to do with it, or is it a secret?
+[2016-01-17 02:15 AM UTC] nightpool: we dunno!
+[2016-01-17 02:15 AM UTC] nightpool: we're figuring things out as we go along
+[2016-01-17 02:15 AM UTC] bvtsang: @Kat https://github.com/new-xkit/XKit/issues/855
+[2016-01-17 02:15 AM UTC] nightpool: we've got a lot of ideas, but we're not sure how many we can implement well
+[2016-01-17 02:15 AM UTC] bvtsang: ...is all the plans we have so far
+[2016-01-17 02:16 AM UTC] Kat: Ooo, thank you! I'll give it a read!
+[2016-01-17 02:16 AM UTC] Wolvan: The issue is scary
+[2016-01-17 02:16 AM UTC] Wolvan: and I share a love/hate relationship to it
+[2016-01-17 02:17 AM UTC] ThePsionic: Anyway, I'm off to sleep
+[2016-01-17 02:17 AM UTC] Mint: gnight!
+[2016-01-17 02:17 AM UTC] ThePsionic: Thanks everyone for coming, and have a good night 😃
+[2016-01-17 02:17 AM UTC] Kat: Bye! 😃
+[2016-01-17 02:18 AM UTC] nightpool: god @ThePsionic I don't even want to think about what time it is where you are
+[2016-01-17 02:18 AM UTC] ThePsionic: 3:18am
+[2016-01-17 02:18 AM UTC] nightpool: oh really?
+[2016-01-17 02:18 AM UTC] ThePsionic: I have to visit the grandparents later today too
+[2016-01-17 02:18 AM UTC] Kat: oh! It's 2:18am where I am 😄
+[2016-01-17 02:18 AM UTC] ThePsionic: fml
+[2016-01-17 02:18 AM UTC] nightpool: that's not as bad as I thought lol
+[2016-01-17 02:18 AM UTC] KilljoyLights: Hello everyone
+[2016-01-17 02:18 AM UTC] IThinkIBrokeIt: 2am here also heh
+[2016-01-17 02:19 AM UTC] KilljoyLights: It's 6pm here I am.
+[2016-01-17 02:19 AM UTC] ThePsionic: But yeah I'm tired as hell so I'm just gonna go now
+[2016-01-17 02:19 AM UTC] ThePsionic: Cya
+[2016-01-17 02:19 AM UTC] Kat: Seeya
+[2016-01-17 02:19 AM UTC] IThinkIBrokeIt: night
+[2016-01-17 02:19 AM UTC] KilljoyLights: Bye
+[2016-01-17 02:19 AM UTC] nightpool: Anyone else have any questions?
+[2016-01-17 02:19 AM UTC] nightpool: At some point I'm probably going to close the chat room when Q&A is done
+[2016-01-17 02:20 AM UTC] wigs: Are there any plans to add an extension to replace the reply function that tumblr took away? (I apologize if this has already been asked as I was late)
+[2016-01-17 02:20 AM UTC] nightpool: so we don't spam it before our next town hall (knock on wood)
+[2016-01-17 02:20 AM UTC] nightpool: @wigs that's another one of those things that we can't really do as an extension
+[2016-01-17 02:20 AM UTC] nightpool: Websites are structured with a front end and a backend, and we can only change stuff on the front end (basically, what you see as opposed to what other people see)
+[2016-01-17 02:21 AM UTC] wigs: aw thank you. it's a shame.
+[2016-01-17 02:21 AM UTC] KilljoyLights: I have taken notice, at least on my tumblr, I don't know if it's the same for everyone else, but Profiler has stopped working.  Are there going to be any fixes to Profiler?
+[2016-01-17 02:22 AM UTC] Riot Blitzcrank: does anyone have a discord.gg link to this?
+[2016-01-17 02:22 AM UTC] Riot Blitzcrank: i wanna join on my main desktop app but it wont work for some reason
+[2016-01-17 02:22 AM UTC] nightpool: @KilljoyLights that's tracked under https://github.com/new-xkit/XKit/issues/831
+[2016-01-17 02:22 AM UTC] nightpool: @Riot Blitzcrank honestly we're kinda closing up
+[2016-01-17 02:22 AM UTC] Riot Blitzcrank: aw
+[2016-01-17 02:22 AM UTC] nightpool: but you can get a invite link from http://new-xkit-extension.tumblr.com
+[2016-01-17 02:22 AM UTC] nightpool: its the top post
+[2016-01-17 02:23 AM UTC] KilljoyLights: Thanks for the link I shall have a read
+[2016-01-17 02:23 AM UTC] Riot Blitzcrank: yea, but i need the actual discord.gg link
+[2016-01-17 02:23 AM UTC] Mint: It's possible the tumblr control issues are an adblock issue because ive had issues with adblock removing the follow button
+[2016-01-17 02:24 AM UTC] Riot Blitzcrank: nevermind, got it owrkin
+[2016-01-17 02:24 AM UTC] Boyned: how many github commits [im going to guess] do you need to officially be called a developer?
+[2016-01-17 02:25 AM UTC] nightpool: @Boynedmaster the Firey Master we talked about this earlier in the town hall meeting, but basically we'll nominate people who are being pretty solid contributors and vote to make them developers
+[2016-01-17 02:25 AM UTC] Boyned: ah
+[2016-01-17 02:26 AM UTC] Boyned: cause i wa splanning on fixing some of the issues on the github and was just curious
+[2016-01-17 02:26 AM UTC] nightpool: @Boyned anyone is free to submit pull requests!
+[2016-01-17 02:26 AM UTC] Boyned: yea, ive submitted one before 😉
+[2016-01-17 02:27 AM UTC] nightpool: Ah, didn't recognize the name, sorry
+[2016-01-17 02:27 AM UTC] nightpool: basically, the best way is to start lurking around the xkit gitter, https://gitter.im/new-xkit/xkit
+[2016-01-17 02:27 AM UTC] Boyned: ooh didnt know it had that
+[2016-01-17 02:28 AM UTC] Boyned: yea my github is boynedmaster
+[2016-01-17 02:28 AM UTC] Boyned: but the only thing ive submitted before was https://github.com/new-xkit/XKit/pull/743
+[2016-01-17 02:28 AM UTC] Wolvan: go ahead, do fixes, join our gitter
+[2016-01-17 02:29 AM UTC] Wolvan: if we think your work is solid, we think about taking you into the team ;)
+[2016-01-17 02:29 AM UTC] Boyned: just joined the gitter, thanks!
+[2016-01-17 02:31 AM UTC] Boyned: also, whats the difference between town hall and general?
+[2016-01-17 02:31 AM UTC] nightpool: This room is only for the town hall
+[2016-01-17 02:31 AM UTC] Boyned: which is?
+[2016-01-17 02:31 AM UTC] nightpool: we chose to use discord instead of gitter because it had more moderation features
+[2016-01-17 02:32 AM UTC] Boyned: i just want to know the definition of a "town hall" in this context
+[2016-01-17 02:32 AM UTC] nightpool: @Boyned the two hour developer discussion we just had 😄
+[2016-01-17 02:32 AM UTC] Mint: the town hall is the question asking session + the dev discussion
+[2016-01-17 02:32 AM UTC] Boyned: oh, lol
+[2016-01-17 02:32 AM UTC] nightpool: "A town hall meeting is an American term given to an informal public meeting, function, or event derived from the traditional town meetings of New England."
+[2016-01-17 02:32 AM UTC] nightpool: is what wikipedia tells me
+[2016-01-17 02:32 AM UTC] Kat: general is just the more off-topic questions you may have
+[2016-01-17 02:32 AM UTC] nightpool: basically, it was a steering discussion
+[2016-01-17 02:32 AM UTC] Kat: or conversation i guess
+[2016-01-17 02:33 AM UTC] nightpool: to talk about the course of the project, how we've been managing it, stuff like that
+[2016-01-17 02:33 AM UTC] Boyned: i get it
+[2016-01-17 02:33 AM UTC] nightpool: @Kat we also have (https://gitter.im/new-xkit/offtopic) which gets more traffic honestly.
+[2016-01-17 02:34 AM UTC] Kat: oh cool! Thanks 😄
+[2016-01-17 02:34 AM UTC] nightpool: the discord server is mainly around because @bvtsang  and @Wolvan like to have voice chats some times 😄
+[2016-01-17 02:34 AM UTC] bvtsang: speaking of voice chats, maybe we can turn those back on now
+[2016-01-17 02:35 AM UTC] Wolvan: don't have time for one myself right now, unfortunately
+[2016-01-17 02:36 AM UTC] Mint: I take that to mean we should start to file out now?
+[2016-01-17 02:36 AM UTC] nightpool: do whatever
+[2016-01-17 02:36 AM UTC] nightpool: I'll stick around to answer stuff, but I might be more distracted
+[2016-01-17 02:36 AM UTC] nightpool: when everybody's gone I'll lock the room
+[2016-01-17 02:37 AM UTC] IThinkIBrokeIt: I'm gonna do the sane and sensible thing and go get some sleep
+[2016-01-17 02:37 AM UTC] IThinkIBrokeIt: (ignoring the fact that I should've done several hours ago)
+[2016-01-17 02:37 AM UTC] IThinkIBrokeIt: night folks
+[2016-01-17 02:37 AM UTC] nightpool: night
+[2016-01-17 02:37 AM UTC] Kat: Goodnight! 😃
+[2016-01-17 02:38 AM UTC] nightpool: anyone else have questions?
+[2016-01-17 02:39 AM UTC] bvtsang: I think we can close the town hall and continue any other conversations in #general
+[2016-01-17 02:41 AM UTC] bvtsang: Unless anyone objects, I'll do that now
+[2016-01-17 02:42 AM UTC] bvtsang: done, please go to #general if you want to continue discussing anything
+[2016-01-17 02:42 AM UTC] bvtsang: (thanks for stopping by!)
