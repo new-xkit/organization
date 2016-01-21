@@ -1,0 +1,947 @@
+[2016-01-16 09:30 PM UTC] bvtsang: Current meeting plans: https://github.com/new-xkit/XKit/issues/796#issuecomment-171778522
+[2016-01-16 10:00 PM UTC] 0xazure: Hi all, so we're going to get started in the next couple minutes.
+[2016-01-16 10:00 PM UTC] hobinjk: Hello and welcome to the New XKit Town Hall! We'll be discussing several issues today.
+[2016-01-16 10:02 PM UTC] hobinjk: First, please use @ replies when possible to disambiguate whose point you are responding to in discussions.
+[2016-01-16 10:03 PM UTC] hobinjk: I think that's the only real request I have to make of the panel, so let's get started with talking about team member management.
+[2016-01-16 10:03 PM UTC] nightpool: introductions?
+[2016-01-16 10:03 PM UTC] hobinjk: Oh right
+[2016-01-16 10:03 PM UTC] nightpool: 😄
+[2016-01-16 10:03 PM UTC] Wolvan: As in Devs introductions?
+[2016-01-16 10:04 PM UTC] hobinjk: We can skip to that bullet point
+[2016-01-16 10:04 PM UTC] hobinjk: Brief introductions now, comments later?
+[2016-01-16 10:04 PM UTC] hobinjk: I'm @hobinjk, moderator of this discussion and co-owner of the New XKit project.
+[2016-01-16 10:05 PM UTC] dlmarquis: I'm @dlmarquis, I'm also a co-owner of the New XKit project
+[2016-01-16 10:05 PM UTC] ThePsionic: I'm @ThePsionic, creator of Pokés and rarely contributor to actual useful content
+[2016-01-16 10:05 PM UTC] Wolvan: Name's @Wolvan, hobby dev and joined this project a bit ago. Responsible for mostly Messaging Tweaks and the.... less useful extensions. \*cough, cough\*Pokés, Satsukimous and Edible Reblogs\*cough, cough\*. I also am responsible for New XKit Bot
+[2016-01-16 10:06 PM UTC] ChuckL: I'm @ChuckL, managing XCloud and the bot server.
+[2016-01-16 10:06 PM UTC] 0xazure: I'm @0xazure, I mostly handle tooling and corralling our test environment, along with dealing with some of the documentation.  I put forward the Town Hall proposal along with @bvtsang.
+[2016-01-16 10:06 PM UTC] blackjackkent: I'm @blackjackkent -- dev of all trades, somewhat main caretaker of xkit's problem child, Editable Reblogs.
+[2016-01-16 10:06 PM UTC] bvtsang: I'm @Xumbra (bvtsang on Github), and I've helped create Editable Reblogs and did some of the organization for the Town Hall
+[2016-01-16 10:06 PM UTC] finagle29: I'm @finagle29, I made tracked blogs draggable and fixed up themes.
+[2016-01-16 10:07 PM UTC] nightpool: I'm @nightpool, and I do a lot of stuff, but focus specifically on the meta infrastructure, including Github Issues, blog stuff, and Gitter troubleshooting. I also answer a lot of the asks
+[2016-01-16 10:08 PM UTC] hobinjk: Okay, I believe that's the introductions of the main team.
+[2016-01-16 10:09 PM UTC] hobinjk: To recap and add on to the request I made earlier: @ reply whenever possible and don't edit content (grammar is fine)
+[2016-01-16 10:09 PM UTC] hobinjk: First, we'll be discussing Team Membership, namely "Do we accept new Team members?".
+[2016-01-16 10:09 PM UTC] hobinjk: @Wolvan , you proposed this section, do you want to give a brief introduction?
+[2016-01-16 10:10 PM UTC] Wolvan: Well, I've been thinking since we did have a few people contributing frequently or actually manning the support from time to time (which I must say I am extremely greatful for, thanks guys), will we add people to the core team?
+[2016-01-16 10:11 PM UTC] Wolvan: And also, if we do, will we add them as programmers or will we have support only rules for example
+[2016-01-16 10:11 PM UTC] Wolvan: And what are the requirements
+[2016-01-16 10:11 PM UTC] Wolvan: s/rules/groups
+[2016-01-16 10:12 PM UTC] blackjackkent: Are there different levels of permission in xkit orgs?
+[2016-01-16 10:12 PM UTC] Wolvan: Not so far, but that is what I meant by groups
+[2016-01-16 10:12 PM UTC] blackjackkent: *github orgs, not xkit orgs, sorry
+[2016-01-16 10:12 PM UTC] hobinjk: @blackjackkent We have the technical capabilities through Github to support many levels of permissions
+[2016-01-16 10:12 PM UTC] blackjackkent: Cos otherwise I'm not sure what would distinguish a support-level "member" from a programmer.
+[2016-01-16 10:12 PM UTC] blackjackkent: ah okay
+[2016-01-16 10:13 PM UTC] Wolvan: Programmers probably are able to merge and stuff
+[2016-01-16 10:13 PM UTC] Wolvan: while support is more or less the support gitter and handling issues in GH
+[2016-01-16 10:13 PM UTC] finagle29: @Wolvan programmers should also be recognized by homu
+[2016-01-16 10:13 PM UTC] 0xazure: I definitely think I'd like to see the team grow as we need more core team members.
+[2016-01-16 10:13 PM UTC] Wolvan: exactly, see "merge and stuff"
+[2016-01-16 10:14 PM UTC] hobinjk: @Wolvan I would argue that programmers have Homu access, and an Admin group has actual pushing
+[2016-01-16 10:14 PM UTC] Wolvan: So we gonna split the programmers into 2 sub groups?
+[2016-01-16 10:14 PM UTC] Wolvan: I don't mind
+[2016-01-16 10:14 PM UTC] blackjackkent: I'm inclined to say that the number of people with merge access shouldn't be extremely large.
+[2016-01-16 10:15 PM UTC] nightpool: I think one of my main questions here is, aside from the whole "support" deal, how do we want to manage adding new members?
+[2016-01-16 10:15 PM UTC] nightpool: @hobinjk I'm not sure I see a meaningful differences between homu and push access tbh
+[2016-01-16 10:15 PM UTC] blackjackkent: ^
+[2016-01-16 10:15 PM UTC] hobinjk: @nightpool Homu leaves a paper trail and sends emails
+[2016-01-16 10:16 PM UTC] Wolvan: What do you mean "sends emails", @hobinjk
+[2016-01-16 10:16 PM UTC] hobinjk: @nightpool Direct push access could be used to silently install adware on every XKit user's computer
+[2016-01-16 10:16 PM UTC] blackjackkent: right but i think the level of influence wielded by someone with homu access (i.e. merge access) and push access (i.e. access to release code) is, for our purposes, pretty similar
+[2016-01-16 10:16 PM UTC] Wolvan: ah yeah, I get it
+[2016-01-16 10:16 PM UTC] nightpool: @hobinjk git itself is a paper trail, no?
+[2016-01-16 10:16 PM UTC] hobinjk: @nightpool No, git history can be rewritten by people with push access
+[2016-01-16 10:17 PM UTC] Wolvan: @nightpool with homu, the only thing you can do is add code and commits, which push access can restore
+[2016-01-16 10:17 PM UTC] nightpool: I'm not worried as much about malicious usage, and agree with @blackjackkent that the issue is more one of culture/code review/whatever—for which approving PRs and push access are approximately the same
+[2016-01-16 10:18 PM UTC] Wolvan: I still prefer homu access and full push to be split, quite honestly, @nightpool
+[2016-01-16 10:19 PM UTC] blackjackkent: can we get a definition on "push" -- cos i can't tell if we mean "pushing code to the github repo" or "releasing features to the wild"?
+[2016-01-16 10:19 PM UTC] nightpool: @hobinjk github has logs of pushes and stuff if we're really worried about that.
+[2016-01-16 10:19 PM UTC] Wolvan: @blackjackkent I think the ability that git push (-f) brings
+[2016-01-16 10:19 PM UTC] blackjackkent: ahh
+[2016-01-16 10:19 PM UTC] Wolvan: full control over the repo if you will
+[2016-01-16 10:19 PM UTC] blackjackkent: okay. i misunderstood slightly.
+[2016-01-16 10:19 PM UTC] blackjackkent: I could buy, then, that those should be two different groups.
+[2016-01-16 10:20 PM UTC] dlmarquis: Re: adding members: so far it seems to work by someone showing up and never leaving, then @hobinjk or I adds them. This works, but it's very slow. Would we want a real infrastructure for this?
+[2016-01-16 10:20 PM UTC] 0xazure: I'm inclined to agree with @Wolvan on separating approved users for Homu and those who have push access to `master`.  There can be overlap, of course, but we'd want to guard against `push -f` from people approved to merge code.
+[2016-01-16 10:20 PM UTC] Wolvan: can this easily be accomplished in git, @0xazure ?
+[2016-01-16 10:21 PM UTC] Wolvan: @dlmarquis I think that's something to be discussed for later, see our Bus Factor point
+[2016-01-16 10:22 PM UTC] nightpool: @Wolvan no, I think that's a little different
+[2016-01-16 10:22 PM UTC] bvtsang: @dlmarquis: one idea is for a core dev to nominate a potential dev (who may meet some criteria we define or something), and then all the core devs vote
+[2016-01-16 10:22 PM UTC] blackjackkent: That was what I was about to suggest.
+[2016-01-16 10:22 PM UTC] blackjackkent: That anyone currently in the core team can nominate someone they feel would be a good "official" rep for the team
+[2016-01-16 10:22 PM UTC] blackjackkent: either in a support or github-admin capacity.
+[2016-01-16 10:22 PM UTC] blackjackkent: and then there's a discussion/vote
+[2016-01-16 10:23 PM UTC] nightpool: I'm pretty happy with the nominate-then-vote idea.
+[2016-01-16 10:23 PM UTC] dlmarquis: I like that idea too
+[2016-01-16 10:23 PM UTC] blackjackkent: this would happen in the org chat
+[2016-01-16 10:23 PM UTC] 0xazure: I'm on board.
+[2016-01-16 10:23 PM UTC] blackjackkent: non-public
+[2016-01-16 10:23 PM UTC] Wolvan: are we going to have 2 groups though?
+[2016-01-16 10:23 PM UTC] finagle29: 👍 to nominate then vote in org chat
+[2016-01-16 10:23 PM UTC] 0xazure: Would we need a full-team vote, in that case?
+[2016-01-16 10:23 PM UTC] Wolvan: as in, 1 homu group and 1 full repo access
+[2016-01-16 10:23 PM UTC] ThePsionic: 👍 on nom and vote
+[2016-01-16 10:23 PM UTC] bvtsang: 👍 for nominate, then vote
+[2016-01-16 10:23 PM UTC] Wolvan: @0xazure I'd say majority
+[2016-01-16 10:24 PM UTC] nightpool: @0xazure details can be hashed out later, but full-team and then vote within a set time limit would be good
+[2016-01-16 10:24 PM UTC] 0xazure: @nightpool agreed.
+[2016-01-16 10:24 PM UTC] blackjackkent: makes sense
+[2016-01-16 10:24 PM UTC] nightpool: Like, 5 days or something to allow for a good response but not requiring *everybody* to respond
+[2016-01-16 10:24 PM UTC] dlmarquis: @Wolvan At the moment we only have people who are both support and programmers. If we nominate someone for only one or the other, we can make a new group at that time
+[2016-01-16 10:24 PM UTC] blackjackkent: For each decision made at this meeting, do we want to assign someone to follow up and organize things?
+[2016-01-16 10:24 PM UTC] blackjackkent: Action items, if you will?
+[2016-01-16 10:24 PM UTC] Wolvan: @dlmarquis I was talking about repo access groups, like earlier suggested have one group with full access and one group that can control homu only
+[2016-01-16 10:25 PM UTC] nightpool: a semi-important point: where is a policy like this going to live?
+[2016-01-16 10:25 PM UTC] bvtsang: @blackjackkent absolutely; at the very least we can file issues to track these
+[2016-01-16 10:25 PM UTC] Wolvan: because I would have suggested we can only nominate for homu access and then nominate again to raise up to full access
+[2016-01-16 10:25 PM UTC] blackjackkent: @nightpool readme? 😛
+[2016-01-16 10:26 PM UTC] bvtsang: @nightpool How about in a new repo for org-related documentation?
+[2016-01-16 10:26 PM UTC] 0xazure: @nightpool I think a separate repo for all the org documentation (potentially including TH transcripts) would make the most sense
+[2016-01-16 10:26 PM UTC] nightpool: Yeah, that's what I was leaning towards too
+[2016-01-16 10:26 PM UTC] blackjackkent: @bvtsang and @0xazure confirmed for same person
+[2016-01-16 10:26 PM UTC] Wolvan: ***Hivemind***
+[2016-01-16 10:26 PM UTC] ThePsionic: Multilog, ban
+[2016-01-16 10:26 PM UTC] dlmarquis: Confirmed for Atesh
+[2016-01-16 10:26 PM UTC] blackjackkent: lol
+[2016-01-16 10:27 PM UTC] Wolvan: OK, enough memes for tonight
+[2016-01-16 10:27 PM UTC] blackjackkent: In any case, it sounds like we're generally on the same page here.
+[2016-01-16 10:27 PM UTC] Wolvan: We really should be more professional here
+[2016-01-16 10:27 PM UTC] ThePsionic: On a more serious note, this was point one of a lot, and we're halfway through the time already 😛
+[2016-01-16 10:27 PM UTC] Wolvan: @ThePsionic we pushed to 1-2h
+[2016-01-16 10:27 PM UTC] hobinjk: Any objections to creation of repo new-xkit/organization with action items filed as issues?
+[2016-01-16 10:27 PM UTC] blackjackkent: That sounds good to me.
+[2016-01-16 10:27 PM UTC] finagle29: @hobinjk none here
+[2016-01-16 10:28 PM UTC] Wolvan: @hobinjk 👍
+[2016-01-16 10:28 PM UTC] 0xazure: @hobinjk nope
+[2016-01-16 10:28 PM UTC] nightpool: 👍
+[2016-01-16 10:28 PM UTC] bvtsang: 👍
+[2016-01-16 10:28 PM UTC] ThePsionic: 👍
+[2016-01-16 10:28 PM UTC] hobinjk: https://github.com/new-xkit/organization/issues/1
+[2016-01-16 10:28 PM UTC] blackjackkent: nice
+[2016-01-16 10:29 PM UTC] blackjackkent: "initiation"
+[2016-01-16 10:29 PM UTC] blackjackkent: do we make them firewalk?
+[2016-01-16 10:29 PM UTC] hobinjk: Note that this leaves out the two team split as a further discussion topic
+[2016-01-16 10:29 PM UTC] ThePsionic: And chug three pints of beer.
+[2016-01-16 10:29 PM UTC] hobinjk: *future
+[2016-01-16 10:29 PM UTC] nightpool: @hobinjk I thought, but maybe I was mistaken, that this was for any group?
+[2016-01-16 10:29 PM UTC] nightpool: not just developers
+[2016-01-16 10:29 PM UTC] blackjackkent: Agreed with @nightpool
+[2016-01-16 10:29 PM UTC] hobinjk: Okay, next point
+[2016-01-16 10:29 PM UTC] hobinjk: Oh right
+[2016-01-16 10:29 PM UTC] hobinjk: Edit as necessary
+[2016-01-16 10:30 PM UTC] 0xazure: As far as nominations go, do we want to allow community members to approach core members to request a "sponsorship", or is it purely a nomination from the core team that would start the approval/voting process?
+[2016-01-16 10:30 PM UTC] Wolvan: Sponsorship how, @0xazure ?
+[2016-01-16 10:30 PM UTC] blackjackkent: I would think if someone wants to join they could talk to someone and ask
+[2016-01-16 10:30 PM UTC] blackjackkent: But it'd be up to the team member whether they actually want to bring that to the core group
+[2016-01-16 10:30 PM UTC] nightpool: @Wolvan sponsoring them for addition
+[2016-01-16 10:31 PM UTC] Wolvan: as in, them asking one of us to open a vote?
+[2016-01-16 10:31 PM UTC] 0xazure: @Wolvan right
+[2016-01-16 10:31 PM UTC] nightpool: agree with @blackjackkent—we can't really stop people asking, but its up to the nominating member
+[2016-01-16 10:31 PM UTC] Wolvan: agree, let's keep it at the core team's decision to start the vote
+[2016-01-16 10:32 PM UTC] hobinjk: Sounds settled enough, let's consider the other side of this. Do we want a set process for handling leaving members?
+[2016-01-16 10:32 PM UTC] Wolvan: I had a question before we go to leaving members, if I may, @hobinjk?
+[2016-01-16 10:32 PM UTC] hobinjk: @Wolvan Yes, but we should move on after this
+[2016-01-16 10:32 PM UTC] Wolvan: Do we want to have requirements for new people
+[2016-01-16 10:33 PM UTC] Wolvan: for example 5 PRs before being nominatable
+[2016-01-16 10:33 PM UTC] Wolvan: or doing support work for a week
+[2016-01-16 10:33 PM UTC] 0xazure: I don't think it's something that can be quite that clear-cut.
+[2016-01-16 10:33 PM UTC] nightpool: I'm fine with requiring at least 1 PR for devs
+[2016-01-16 10:33 PM UTC] dlmarquis: I think getting votes would require quite a bit of contribution in any case
+[2016-01-16 10:33 PM UTC] nightpool: but not really any more then that
+[2016-01-16 10:33 PM UTC] ThePsionic: It really depends on the situation
+[2016-01-16 10:33 PM UTC] blackjackkent: Yeah. I think it'll be fairly subjective but they have to have done SOMETHING
+[2016-01-16 10:33 PM UTC] hobinjk: Don't vote for people you don't think are qualified
+[2016-01-16 10:34 PM UTC] Wolvan: that's fair I suppose
+[2016-01-16 10:34 PM UTC] Wolvan: thanks for the answer
+[2016-01-16 10:34 PM UTC] hobinjk: Okay, let's move on to leaving members
+[2016-01-16 10:35 PM UTC] dlmarquis: Do we want a timelimit in case someone leaves without a trace? I feel like announcing they're leaving is pretty clear....
+[2016-01-16 10:35 PM UTC] Wolvan: That's something that is closely connected to what "responsibilities" a team member has
+[2016-01-16 10:35 PM UTC] nightpool: I don't think we really need to be toooo worried about desysoping people.
+[2016-01-16 10:35 PM UTC] Wolvan: like, what happens if @ChuckL leaves? What happens to XCloud?
+[2016-01-16 10:35 PM UTC] blackjackkent: Maybe some sort of regular census?
+[2016-01-16 10:35 PM UTC] ChuckL: It explodes.  :p
+[2016-01-16 10:36 PM UTC] blackjackkent: Like just a general "hey if you're still here, say hi in the chat" or something?
+[2016-01-16 10:36 PM UTC] nightpool: @Wolvan that's a different topic
+[2016-01-16 10:36 PM UTC] ChuckL: Yeah, we'll discuss that a bit later.
+[2016-01-16 10:36 PM UTC] nightpool: Anyway, the way I see it is that, if someone wants out they can have out whenever (obviously, I hope) but I don't really see a reason to take their push bit away for inactivity.
+[2016-01-16 10:36 PM UTC] Wolvan: is this basically just the "how would one tell the others that they stopped working on xkit"
+[2016-01-16 10:37 PM UTC] blackjackkent: @nightpool so you're in favor of indefinite as long as they haven't specifically said they're leaving?
+[2016-01-16 10:37 PM UTC] blackjackkent: i mean I guess it's not a huge deal if they're just chilling in the org.
+[2016-01-16 10:37 PM UTC] nightpool: @blackjackkent I mean as long as they haven't specifically said they don't want the permissions anymore.
+[2016-01-16 10:37 PM UTC] blackjackkent: *nods*
+[2016-01-16 10:37 PM UTC] Wolvan: 👍
+[2016-01-16 10:38 PM UTC] ChuckL: For the most part I think it's fairly straight forward.  If someone leaves that doesn't have infrastructure responsibilities it doesn't really matter except I'll probably miss them.  For infrastructure responsibilities we should try to get a non 1 bus factor and we'll be good..
+[2016-01-16 10:38 PM UTC] Wolvan: I personally don't mind absence
+[2016-01-16 10:38 PM UTC] nightpool: Although (and this might be stretching a bit into the CoC topic) we might need some way to remove people as an org
+[2016-01-16 10:38 PM UTC] nightpool: for reasons other then inactivity.
+[2016-01-16 10:38 PM UTC] blackjackkent: yeah, i think we'll get to that when we discuss coc
+[2016-01-16 10:38 PM UTC] dlmarquis: Definitely a CoC issue
+[2016-01-16 10:38 PM UTC] Wolvan: Yeah. @hobinjk / @dlmarquis what about the rest of us having the ability to add/remove people from the org? or homu
+[2016-01-16 10:38 PM UTC] Wolvan: because I think we can't add people to homu either
+[2016-01-16 10:39 PM UTC] blackjackkent: I don't think that's what he meant, lol
+[2016-01-16 10:39 PM UTC] Wolvan: oh wait, whoops bus factor
+[2016-01-16 10:39 PM UTC] Wolvan: sorry
+[2016-01-16 10:39 PM UTC] nightpool: that's not what I meant @Wolvan
+[2016-01-16 10:39 PM UTC] Wolvan: Sorry, sorry. Ish a bit late already and my brain is not 100%
+[2016-01-16 10:39 PM UTC] hobinjk: Sounds like there are no strong opinions on this particular point that can't be shelved until we talk about the bus factor and the CoC. Are there any objections to waiting for those two?
+[2016-01-16 10:39 PM UTC] nightpool: @dlmarquis I think there are other reasons then strictly CoC ones that the org would need to remove people
+[2016-01-16 10:39 PM UTC] nightpool: and @hobinjk ^
+[2016-01-16 10:39 PM UTC] blackjackkent: such as?
+[2016-01-16 10:40 PM UTC] nightpool: for example, the aforementioned example of pushed malware
+[2016-01-16 10:40 PM UTC] Wolvan: edge cases like abuse our power you mean
+[2016-01-16 10:40 PM UTC] dlmarquis: That would also be a breach of CoC....
+[2016-01-16 10:40 PM UTC] 0xazure: It sounds to me like in addition to a CoC we need some firmer contributing/code quality guidelines.
+[2016-01-16 10:40 PM UTC] blackjackkent: Actively malicious behavior would be part of coc i would think
+[2016-01-16 10:40 PM UTC] bvtsang: +1 for shelving this talk until we discuss the code of conduct
+[2016-01-16 10:42 PM UTC] nightpool: no, http://todogroup.org/opencodeofconduct/ is pretty specifically just about respectful conduct as related to discussions
+[2016-01-16 10:42 PM UTC] nightpool: if we want our CoC to cover more, that's fine
+[2016-01-16 10:42 PM UTC] nightpool: but I don't think they're really the same thing
+[2016-01-16 10:42 PM UTC] dlmarquis: We can adapt it to include malicious intent
+[2016-01-16 10:43 PM UTC] ChuckL: Yeah, but really it's a talk for the code of conduct.
+[2016-01-16 10:43 PM UTC] Wolvan: Let's talk about that when the CoC actually comes up, yeah
+[2016-01-16 10:43 PM UTC] ChuckL: If we're kicking people out it's probably going to be a code of conduct issue.
+[2016-01-16 10:44 PM UTC] ChuckL: So let's shelve it for Code of Conduct and just say if someone violates our current theoretical code of conduct, we'll probably kick them out.
+[2016-01-16 10:44 PM UTC] hobinjk: Okay, the next point is "Discuss & document infrastructure access and responsibilities". The first part of this is "Who has access to the blogs/XCloud/NewXKitBot/etc". I think we should roll this into "How well are we mitigating the Bus Factor" for this discussion
+[2016-01-16 10:45 PM UTC] hobinjk: Mispoke, the point "Who is ultimately responsible for the blogs/XCloud/NewXKitBot/etc (who "owns" a given piece)" is also relevant in this discussion
+[2016-01-16 10:45 PM UTC] hobinjk: I think we can consider these points simultaneously for this discussion
+[2016-01-16 10:46 PM UTC] ChuckL: I currently take ownership of XCloud
+[2016-01-16 10:46 PM UTC] Wolvan: As in "who is responsible for XCloud/NXKitBot", are we talking about the server
+[2016-01-16 10:46 PM UTC] Wolvan: or the code
+[2016-01-16 10:46 PM UTC] ChuckL: and unfortunately I only have access to it.
+[2016-01-16 10:46 PM UTC] blackjackkent: both, I would think.
+[2016-01-16 10:46 PM UTC] dlmarquis: Both
+[2016-01-16 10:46 PM UTC] ChuckL: I also take ownership of keeping the XKitbot server up and running.
+[2016-01-16 10:47 PM UTC] Wolvan: NewXKitBot's Server would be me and @ChuckL at the moment
+[2016-01-16 10:47 PM UTC] blackjackkent: I think ultimately we want to get away from a situation where anything is wholly isolated to one person
+[2016-01-16 10:47 PM UTC] Wolvan: we both basically have full control, although I can't pay for the server
+[2016-01-16 10:47 PM UTC] ChuckL: Yeah, for the XCloud and the bots we have them in github.
+[2016-01-16 10:48 PM UTC] Wolvan: but we don't have the server
+[2016-01-16 10:48 PM UTC] ChuckL: I want to keep the XCloud server to a very short list of people since ti contains sensitive information.
+[2016-01-16 10:48 PM UTC] Wolvan: or rather, only a vast minority has access to the servers
+[2016-01-16 10:48 PM UTC] blackjackkent: so is server access the main bus issue here?
+[2016-01-16 10:48 PM UTC] nightpool: @ChuckL XCloud is on aws, right? can you talk a bit about how that is set up, permissions wise?
+[2016-01-16 10:48 PM UTC] ChuckL: Sure @nightpool
+[2016-01-16 10:48 PM UTC] ChuckL: Permission wise it's on my account and only I have access to it.
+[2016-01-16 10:48 PM UTC] Wolvan: @ChuckL is New XKit Bot also an AWS?
+[2016-01-16 10:48 PM UTC] ChuckL: Nope, that's on my R&D server.
+[2016-01-16 10:48 PM UTC] ChuckL: Linode.
+[2016-01-16 10:48 PM UTC] Wolvan: ah ok
+[2016-01-16 10:49 PM UTC] hobinjk: @ChuckL is it possible to release the code with the sensitive information, or is it a matter of leaking the cryptography primitives used in an insecure way?
+[2016-01-16 10:49 PM UTC] ChuckL: So we have AWS and an R&D Linode server.   AWS has XCloud.  R&D has the bots.
+[2016-01-16 10:49 PM UTC] ChuckL: Yes
+[2016-01-16 10:49 PM UTC] ChuckL: It is in the new xkit git repo.
+[2016-01-16 10:49 PM UTC] nightpool: @hobinjk the code is in the org?
+[2016-01-16 10:49 PM UTC] Wolvan: the data is not, the server itself is
+[2016-01-16 10:50 PM UTC] hobinjk: Oh, I see, misinterpreted
+[2016-01-16 10:50 PM UTC] blackjackkent: The code is in the org; the issue is actually being able to modify the server.
+[2016-01-16 10:50 PM UTC] Wolvan: and getting the data in case @ChuckL gets hit by a bus
+[2016-01-16 10:50 PM UTC] ChuckL: yeah
+[2016-01-16 10:50 PM UTC] Wolvan: so we can use that data to restore the service
+[2016-01-16 10:50 PM UTC] blackjackkent: @ChuckL is it a scenario where you could add more users to the server?
+[2016-01-16 10:50 PM UTC] blackjackkent: (and would feel comfortable doing that?)
+[2016-01-16 10:50 PM UTC] nightpool: Well, there are two real issues to the bus factor.
+[2016-01-16 10:50 PM UTC] ChuckL: @blackjackkent yup I can and I would feel comfortable doing it.
+[2016-01-16 10:51 PM UTC] ChuckL: I would like to add @hobinjk and someone else.
+[2016-01-16 10:51 PM UTC] nightpool: 1. is the obvious: emergency situations, where we have to do recovery
+[2016-01-16 10:51 PM UTC] ChuckL: Then I'll put an action item for me to put together a disaster recovery scenario.
+[2016-01-16 10:51 PM UTC] nightpool: 2. is the more mundane "what happens when XCloud goes down and only one person can fix it"
+[2016-01-16 10:51 PM UTC] nightpool: we ran in to #2 with xkitbot a few times
+[2016-01-16 10:52 PM UTC] Wolvan: Did we?
+[2016-01-16 10:52 PM UTC] Wolvan: it was always both, me and @ChuckL being able to fix XKitBot
+[2016-01-16 10:52 PM UTC] nightpool: @Wolvan not when the server ran out of memory
+[2016-01-16 10:52 PM UTC] Wolvan: oh yeah
+[2016-01-16 10:52 PM UTC] Wolvan: I remember that
+[2016-01-16 10:53 PM UTC] Wolvan: I could have resolved that as well, but I didn't wanna mess with @ChuckL's property
+[2016-01-16 10:53 PM UTC] ChuckL: Yeah, as long as XKitbot and XCloud are running on my servers I'll keep them running to the best of my ability
+[2016-01-16 10:53 PM UTC] Wolvan: what if you'd die of heart failure all of a sudden
+[2016-01-16 10:53 PM UTC] ChuckL: and @Wolvan, feel free to do anything you want with the server, I only have non critical stuff on it.
+[2016-01-16 10:53 PM UTC] Wolvan: and you simply drop dead, though
+[2016-01-16 10:53 PM UTC] blackjackkent: grim 😛
+[2016-01-16 10:53 PM UTC] Wolvan: it's something that can happen though
+[2016-01-16 10:54 PM UTC] Wolvan: alright, noted for the future, @ChuckL
+[2016-01-16 10:54 PM UTC] blackjackkent: *buys @ChuckL a LifeAlert*
+[2016-01-16 10:54 PM UTC] ChuckL: @Wolvan, yeah, if I drop dead both the XCloud code and bot code is on github.  Someone would need to setup new servers and execute the disaster recovery plan.
+[2016-01-16 10:54 PM UTC] Wolvan: @blackjackkent, professionalism please
+[2016-01-16 10:54 PM UTC] ChuckL: If you want @blackjackkent I can add you to my life insurance policy to keep the servers up.
+[2016-01-16 10:54 PM UTC] ChuckL: :p
+[2016-01-16 10:55 PM UTC] blackjackkent: @ChuckL sounds good 😛
+[2016-01-16 10:55 PM UTC] hobinjk: Does this discussion point need any resolution other than @ChuckL creating a recovery plan for XCloud?
+[2016-01-16 10:55 PM UTC] blackjackkent: I think that's the best action item for right now @hobinjk
+[2016-01-16 10:55 PM UTC] 0xazure: We need documented deployment steps for XCloud and the bots
+[2016-01-16 10:55 PM UTC] Wolvan: we should all make recovery plans, honestly
+[2016-01-16 10:55 PM UTC] nightpool: agree with @0xazure
+[2016-01-16 10:55 PM UTC] Wolvan: especially when we have certain pieces of infrastructure to manage
+[2016-01-16 10:55 PM UTC] ChuckL: @0xazure noted.  I'll make a plan for deployment of XCloud.  @Wolvan do you want to take a plan for the bots?
+[2016-01-16 10:56 PM UTC] Wolvan: as long as someone is helping me out, since I absolutely don't know what a recovery plan would look like
+[2016-01-16 10:56 PM UTC] ChuckL: Yeah, we'll go through it after this meeting.
+[2016-01-16 10:56 PM UTC] hobinjk: I will create a recovery plan for my responsibilities. I don't think anyone besides I and @ChuckL need one
+[2016-01-16 10:56 PM UTC] Wolvan: thanks @ChuckL
+[2016-01-16 10:56 PM UTC] Wolvan: @hobinjk I do
+[2016-01-16 10:57 PM UTC] 0xazure: @Wolvan the bot doesn't really store any information though, does it?  I think the deployment docs for the bots should be sufficient
+[2016-01-16 10:57 PM UTC] ChuckL: Are there any volunteers who would want to take on XCloud if I croak?
+[2016-01-16 10:57 PM UTC] Wolvan: I think I put the deployment steps down already
+[2016-01-16 10:57 PM UTC] Wolvan: I could do so, @ChuckL, if we need it
+[2016-01-16 10:57 PM UTC] Wolvan: but add someone 2nd just in case
+[2016-01-16 10:57 PM UTC] 0xazure: @ChuckL I'd be willing, I have some AWS experience.
+[2016-01-16 10:58 PM UTC] ChuckL: do you have $0.01 a month for server costs @Wolvan ? :p
+[2016-01-16 10:58 PM UTC] Wolvan: yea
+[2016-01-16 10:58 PM UTC] ChuckL: Okay, sounds good @0xazure
+[2016-01-16 10:58 PM UTC] blackjackkent: lol
+[2016-01-16 10:58 PM UTC] hobinjk: See https://github.com/new-xkit/organization/issues/2. Are there any objections to moving on?
+[2016-01-16 10:58 PM UTC] blackjackkent: none here
+[2016-01-16 10:58 PM UTC] finagle29: none here
+[2016-01-16 10:58 PM UTC] nightpool: 👍
+[2016-01-16 10:58 PM UTC] Wolvan: 👍
+[2016-01-16 10:58 PM UTC] bvtsang: 👍
+[2016-01-16 10:59 PM UTC] hobinjk: Great.
+[2016-01-16 10:59 PM UTC] hobinjk: We didn't quite cover who has access to the blogs. Thoughts?
+[2016-01-16 10:59 PM UTC] nightpool: Whoops, forgot that was a topic
+[2016-01-16 11:00 PM UTC] blackjackkent: Org members, if they want it. [shrug]
+[2016-01-16 11:00 PM UTC] finagle29: Support role/GH group members should have access to new-xkit-support blog
+[2016-01-16 11:00 PM UTC] Wolvan: we all have blog access, don't we?
+[2016-01-16 11:00 PM UTC] blackjackkent: some people in the org don't want it, which is fine.
+[2016-01-16 11:00 PM UTC] Wolvan: and yeah, support role has new-xkit-support access
+[2016-01-16 11:00 PM UTC] hobinjk: Great, moving on then.
+[2016-01-16 11:00 PM UTC] blackjackkent: makes sense
+[2016-01-16 11:01 PM UTC] hobinjk: How do people feel about the scope of the New XKit project? Is it limited to maintenance of XKit and related support infrastructure, or does Pipeline fit in there too? As a follow-up, should Pipeline be part of the organization's repositories?
+[2016-01-16 11:02 PM UTC] Wolvan: depends. Is New XKit a brand or is New XKit the extension only
+[2016-01-16 11:03 PM UTC] blackjackkent: Yeah, that's the issue under discussion. Not really pipeline specific but should projects in general worked on by the group be associated with the XKit brand or have their own orgs.
+[2016-01-16 11:03 PM UTC] nightpool: there's a hidden question about branding here, like @Wolvan mentioned. if we do decide to take on pipeline, are we happy with calling the general organization New XKit?
+[2016-01-16 11:03 PM UTC] blackjackkent: Certainly in pipeline's case we're not directly related to anything in the XKit extension; we just happen to be worked on by the same people.
+[2016-01-16 11:04 PM UTC] blackjackkent: And yeah, it's a question of how the group as a whole is branding themselves.
+[2016-01-16 11:05 PM UTC] finagle29: I feel like unless there are other suggestions for an org name, New XKit is fine for now
+[2016-01-16 11:06 PM UTC] 0xazure: I've always thought of "New XKit" to be the extension and any administration centered around the same.  I think that if it isn't directly related to the extension or infrastructure (a la XCLoud), it should be separated out.
+[2016-01-16 11:07 PM UTC] 0xazure: The teams can be the same, or a subsection of the core team, but I think it would help in terms of organization of projects.
+[2016-01-16 11:07 PM UTC] Wolvan: I consider New XKit (Team) a brand by now personally
+[2016-01-16 11:07 PM UTC] nightpool: honestly I've never been super happy with new xkit as a name to begin with.
+[2016-01-16 11:07 PM UTC] blackjackkent: xkit has name recognition
+[2016-01-16 11:07 PM UTC] blackjackkent: which is important
+[2016-01-16 11:07 PM UTC] dlmarquis: ^^
+[2016-01-16 11:07 PM UTC] blackjackkent: the question i suppose is where our authority to use the term "xkit" begins and ends
+[2016-01-16 11:08 PM UTC] Wolvan: what if we re-branded
+[2016-01-16 11:08 PM UTC] Wolvan: if we go from new-xkit to something entirely new
+[2016-01-16 11:08 PM UTC] Wolvan: something we CAN confidentally call our own brand
+[2016-01-16 11:08 PM UTC] blackjackkent: that's definitely a bigger question
+[2016-01-16 11:08 PM UTC] dlmarquis: If/when Pipeline launches, it should be under a different name. I have no issue hosting it until we come up with one, though
+[2016-01-16 11:09 PM UTC] dlmarquis: Hosting the code, that is
+[2016-01-16 11:10 PM UTC] hobinjk: Pipeline and New XKit are different enough that having pipeline under the New XKit organization doesn't make sense. However, it isn't damaging to New XKit to have Pipeline happen to be there
+[2016-01-16 11:10 PM UTC] Wolvan: I think for the time being we can stick the Pipeline repo under new-xkit as an org
+[2016-01-16 11:10 PM UTC] 0xazure: For pipeline specifically, I'd like to see it separated out soon.  It's in a language other than Javascript and has different goals to the XKit extension (to my mind, at least, might need @blackjackkent and @bvtsang to chime in here).  Putting it under a different org would also allow us to fork related projects and keep them together with that project, instead of cluttering up new-xkit
+[2016-01-16 11:10 PM UTC] Wolvan: but as I said, rebranding the New XKit org entirely might be something to think about
+[2016-01-16 11:11 PM UTC] nightpool: I'm leaning a little more towards the side of rebranding
+[2016-01-16 11:11 PM UTC] blackjackkent: The general message I'm getting here is that Pipeline should be its own org (as should any project worked on by this team that is not specifically related to the xkit extension)
+[2016-01-16 11:11 PM UTC] nightpool: I'd like to be able to foster a larger community of Tumblr-related code, extensions, and tweaks
+[2016-01-16 11:12 PM UTC] blackjackkent: so we'll work on doing that sooner rather than later
+[2016-01-16 11:12 PM UTC] blackjackkent: That said I'm also not averse to rebranding; we have large enough adoption that it's something we can discuss, I think.
+[2016-01-16 11:12 PM UTC] nightpool: For which Pipeline is certainly very applicable, in my mind.
+[2016-01-16 11:12 PM UTC] Wolvan: can we have a XKit area and another Pipeline area under one org?
+[2016-01-16 11:12 PM UTC] blackjackkent: That might be a larger discussion than we want to have right here though.
+[2016-01-16 11:12 PM UTC] ThePsionic: Agreed with @Wolvan
+[2016-01-16 11:12 PM UTC] nightpool: @blackjackkent I know we probably won't be able to finish this discussion today
+[2016-01-16 11:13 PM UTC] 0xazure: @Wolvan like, identifying projects as belonging to one or the other?
+[2016-01-16 11:13 PM UTC] nightpool: but I proposed the issue because I really wanted to get the discussion going
+[2016-01-16 11:13 PM UTC] Wolvan: is there like, sub groups you can make for an organization
+[2016-01-16 11:13 PM UTC] Wolvan: which you can put repos under
+[2016-01-16 11:13 PM UTC] blackjackkent: I don't /think/ so
+[2016-01-16 11:13 PM UTC] hobinjk: To me, "New XKit", already stands for the ideal of fixing the nonsense Staff does and rebranding would just create confusion for users
+[2016-01-16 11:13 PM UTC] nightpool: @Wolvan no, github does not support that
+[2016-01-16 11:13 PM UTC] blackjackkent: we could look into it thought
+[2016-01-16 11:13 PM UTC] 0xazure: @Wolvan nope.
+[2016-01-16 11:13 PM UTC] Wolvan: for example New brand name/New XKit/Xkit
+[2016-01-16 11:13 PM UTC] Wolvan: and New brand name/Pipeline/Pipeline related projects
+[2016-01-16 11:13 PM UTC] blackjackkent: yeah i don't think you can do that with github
+[2016-01-16 11:14 PM UTC] Wolvan: we could just prefix the repos, heh
+[2016-01-16 11:14 PM UTC] hobinjk: @blackjackkent We could have a Pipeline team with repo access
+[2016-01-16 11:14 PM UTC] 0xazure: Also @nightpool I see what you're saying about Tumblr-related things under New XKit, but Pipeline isn't exactly Tumblr-related like XKit is.
+[2016-01-16 11:15 PM UTC] nightpool: @hobinjk I know, and I agree, but we run into these two tensions between the current use of someone else's brand—to be blunt—and the expansions we want to do going forward.
+[2016-01-16 11:15 PM UTC] Wolvan: this is why rebranding would come first
+[2016-01-16 11:16 PM UTC] Wolvan: while Pipeline is still in the works, I don't see a problem at all in putting it under the NXKit org though
+[2016-01-16 11:17 PM UTC] blackjackkent: eh. I mean I tend to agree with @0xazure and with what @hobinjk said earlier -- it's not directly related enough for it to really make sense there.
+[2016-01-16 11:18 PM UTC] bvtsang: Especially in that pipeline and new xkit have different goals
+[2016-01-16 11:18 PM UTC] blackjackkent: Moving it out of the org does not in any way preclude org people working on it 😛
+[2016-01-16 11:18 PM UTC] 0xazure: I still have concerns about forking projects into the New XKit org that are specifically related or are dependencies of pipeline.  There's no clear way to separate these out in the same org.
+[2016-01-16 11:18 PM UTC] nightpool: @0xazure Its tumblr-adjacent, in the sense that it serves the same content-first principles that tumblr does, and is built to serve the same community
+[2016-01-16 11:18 PM UTC] nightpool: in my mind
+[2016-01-16 11:18 PM UTC] Wolvan: @0xazure are we talking rebranded NXKit Org?
+[2016-01-16 11:19 PM UTC] nightpool: @Wolvan I don't think really anyone is on board for rebranding
+[2016-01-16 11:19 PM UTC] nightpool: right now
+[2016-01-16 11:19 PM UTC] Wolvan: it doesn't work too well under New XKit
+[2016-01-16 11:19 PM UTC] Wolvan: it might work under the rebranded one
+[2016-01-16 11:19 PM UTC] Wolvan: is all I'm saying
+[2016-01-16 11:21 PM UTC] blackjackkent: Yeah, I'm getting the impression that rebranding might be something to address further down. and for right now non-extension-related stuff gets its own org.
+[2016-01-16 11:21 PM UTC] hobinjk: It sounds like the pipeline devs are in favor of moving pipeline elsewhere due to its differences and rebranding will not be done for now. Are there any other points about this discussion point?
+[2016-01-16 11:22 PM UTC] blackjackkent: (that said, anyone interested can absolutely dive in to help with pipeline, and we're still connected culturally)
+[2016-01-16 11:22 PM UTC] nightpool: no, i'm fine. I'm pretty hesitant to agree that splitting the org *isn't* going to have possible bad consequences down the line in terms of organizational complexity, reuse of similar structures, or of the possibility of withering on the vine.
+[2016-01-16 11:22 PM UTC] Wolvan: I agree with @nightpool
+[2016-01-16 11:22 PM UTC] blackjackkent: If we get that impression, we can always re-merge.
+[2016-01-16 11:23 PM UTC] Wolvan: that sounds like a solution
+[2016-01-16 11:23 PM UTC] blackjackkent: it's not a irrevocable decision
+[2016-01-16 11:23 PM UTC] 0xazure: Moving repos is pretty low-friction, if any of that becomes the case, or after we (if we) re-brand, we can always move it back.
+[2016-01-16 11:23 PM UTC] blackjackkent: just trying to keep things well-organized
+[2016-01-16 11:23 PM UTC] hobinjk: Speaking of organization, I think we can move on to the next point
+[2016-01-16 11:23 PM UTC] Wolvan: maybe we can later on just put both organizations under one umbrella org or so
+[2016-01-16 11:23 PM UTC] nightpool: yeah, I'm down to move on.
+[2016-01-16 11:24 PM UTC] Wolvan: same
+[2016-01-16 11:24 PM UTC] hobinjk: This next point is the "Better use of GtiHub organization teams to organize members and access permissions". Here we can continue the discussion earlier about whether to split the Developers team to make homu vs push access finely grained
+[2016-01-16 11:25 PM UTC] blackjackkent: I have no objection to doing so
+[2016-01-16 11:25 PM UTC] hobinjk: As well as whether we should create new groups
+[2016-01-16 11:25 PM UTC] 0xazure: I'd definitely like to see a support role
+[2016-01-16 11:25 PM UTC] nightpool: I don't really think we need to split the team
+[2016-01-16 11:25 PM UTC] blackjackkent: Admin authority and code review authority, plus a role for people officially associated with the app who only do support
+[2016-01-16 11:25 PM UTC] Wolvan: I am for splitting
+[2016-01-16 11:25 PM UTC] nightpool: as far as homu vs. push I feel like we've got a very good split already in admins vs. devs
+[2016-01-16 11:25 PM UTC] blackjackkent: well. who has push atm?
+[2016-01-16 11:25 PM UTC] Wolvan: @blackjackkent 👍
+[2016-01-16 11:25 PM UTC] Wolvan: we all do
+[2016-01-16 11:25 PM UTC] blackjackkent: that's what i thought.
+[2016-01-16 11:26 PM UTC] dlmarquis: We were discussing making it only available to @hobinjk and I
+[2016-01-16 11:26 PM UTC] Wolvan: at least I think I do?
+[2016-01-16 11:26 PM UTC] hobinjk: My proposal would be making direct push Owner-only
+[2016-01-16 11:26 PM UTC] 0xazure: Yeah, would like to see push get relegated to just the Owners.
+[2016-01-16 11:26 PM UTC] blackjackkent: 👍
+[2016-01-16 11:26 PM UTC] nightpool: on a related note, I'd like to propose renaming owners to stewards, because I feel like its a better description
+[2016-01-16 11:26 PM UTC] finagle29: 👍 to push for Owners
+[2016-01-16 11:26 PM UTC] Wolvan: quite honestly, I'd keep push to the core team
+[2016-01-16 11:26 PM UTC] Wolvan: but overruled
+[2016-01-16 11:26 PM UTC] bvtsang: 👍 to push for owners
+[2016-01-16 11:27 PM UTC] 0xazure: @nightpool I don't see much wrong with Owners, because isn't the entire core team technically stewards of the project?
+[2016-01-16 11:27 PM UTC] nightpool: My only other comment is that I've found push to be useful a lot, in cases when contributors who aren't necessarily devs can't really figure out exactly how to get good PRs
+[2016-01-16 11:28 PM UTC] Wolvan: which is why I would keep the core team to be able to push, @nightpool
+[2016-01-16 11:28 PM UTC] nightpool: I get that we're worried about history, but I'm not sure if that's a reason to remove push
+[2016-01-16 11:28 PM UTC] Wolvan: push has it's use and us core devs have proven that we can handle it imo
+[2016-01-16 11:28 PM UTC] 0xazure: @nightpool but if contributors are making PRs, we'd need push access to _their_ repo, not the upstream one.
+[2016-01-16 11:28 PM UTC] blackjackkent: ^
+[2016-01-16 11:28 PM UTC] 0xazure: Unless you're talking about merging on their behalf.
+[2016-01-16 11:28 PM UTC] nightpool: My other comment is that org-repo branches are very, very good for collaboration, and that we should make sure we're **only** locking down master
+[2016-01-16 11:28 PM UTC] nightpool: @0xazure I was talking about merging on their behalf
+[2016-01-16 11:29 PM UTC] dlmarquis: I'm pro only locking master to the Owners
+[2016-01-16 11:29 PM UTC] Wolvan: @nightpool 👍 on master lock down
+[2016-01-16 11:29 PM UTC] dlmarquis: If that's an issue
+[2016-01-16 11:29 PM UTC] blackjackkent: Agreed.
+[2016-01-16 11:29 PM UTC] nightpool: And gh-pages, I guess?
+[2016-01-16 11:29 PM UTC] ThePsionic: 👍 definitely
+[2016-01-16 11:29 PM UTC] Wolvan: uhm
+[2016-01-16 11:29 PM UTC] 0xazure: @nightpool why not re-submit the PR, instead of merging and pushing?
+[2016-01-16 11:29 PM UTC] Wolvan: I'd keep gh pages open
+[2016-01-16 11:29 PM UTC] Wolvan: since the bot is pushing there
+[2016-01-16 11:29 PM UTC] Wolvan: constantly
+[2016-01-16 11:30 PM UTC] nightpool: We should figure out how that relates to updating things that don't get updated automatically
+[2016-01-16 11:30 PM UTC] hobinjk: @Wolvan The bot would be given special dispensation
+[2016-01-16 11:30 PM UTC] nightpool: @Wolvan we can give the bot its own group
+[2016-01-16 11:30 PM UTC] 0xazure: We may want to look into https://github.com/blog/2051-protected-branches-and-required-status-checks as well.
+[2016-01-16 11:30 PM UTC] hobinjk: @0xazure That's exactly what we'd be using
+[2016-01-16 11:30 PM UTC] blackjackkent: We're using that for pipeline atm
+[2016-01-16 11:31 PM UTC] nightpool: @0xazure yeah that's the only way to lock specific branches
+[2016-01-16 11:31 PM UTC] blackjackkent: it seems promising.
+[2016-01-16 11:31 PM UTC] hobinjk: Results of this point so far are https://github.com/new-xkit/organization/issues/3 and https://github.com/new-xkit/organization/issues/4
+[2016-01-16 11:31 PM UTC] hobinjk: Any further comments?
+[2016-01-16 11:31 PM UTC] Wolvan: so we lock down master for anyone but the owners and the other branches are still open, right?
+[2016-01-16 11:31 PM UTC] blackjackkent: master and gh-pages
+[2016-01-16 11:31 PM UTC] blackjackkent: yes
+[2016-01-16 11:31 PM UTC] Wolvan: will the bots keep access to master as well
+[2016-01-16 11:31 PM UTC] nightpool: I'm still not a fan of "owners" as a name, but that's a super minor point
+[2016-01-16 11:32 PM UTC] nightpool: @Wolvan "Leaving direct push to @new-xkit/owners and the update bot"
+[2016-01-16 11:32 PM UTC] Wolvan: Oh, I only read the first part
+[2016-01-16 11:32 PM UTC] Wolvan: my bad
+[2016-01-16 11:32 PM UTC] Wolvan: also, how will this affect us pulling PRs from people and rebasing them?
+[2016-01-16 11:32 PM UTC] nightpool: we could make a new pr I guess
+[2016-01-16 11:33 PM UTC] nightpool: that would be the suggested way in my opinion
+[2016-01-16 11:33 PM UTC] blackjackkent: Yeah.
+[2016-01-16 11:33 PM UTC] blackjackkent: If you need to update someone's branch, make a new PR and close the old one.
+[2016-01-16 11:34 PM UTC] hobinjk: I think this is settled now. Let's move on to the next discussion point.
+[2016-01-16 11:34 PM UTC] hobinjk: This section is "State of the Project", the first point is "State of infrastructure"
+[2016-01-16 11:35 PM UTC] hobinjk: How is our infrastructure, i.e. XCloud, NewXKitBot, and the blogs, doing?
+[2016-01-16 11:35 PM UTC] Wolvan: our blog inboxes are filled with duplicates of the same question
+[2016-01-16 11:35 PM UTC] Wolvan: might wanna sometime do some cleaning
+[2016-01-16 11:35 PM UTC] nightpool: Inboxes are really hard to use
+[2016-01-16 11:35 PM UTC] Wolvan: also, maybe wanna close -extensions inbox
+[2016-01-16 11:35 PM UTC] nightpool: I've been having some ideas about stuff to build to help for a while
+[2016-01-16 11:36 PM UTC] nightpool: but its been pretty back burner since the summer
+[2016-01-16 11:36 PM UTC] dlmarquis: +1 closing of the -extension inbox
+[2016-01-16 11:36 PM UTC] blackjackkent: no objection here
+[2016-01-16 11:36 PM UTC] nightpool: I guess my biggest point I wanted to bring up re: infrastructure was what we were *missing*—namely, any kind of user-facing documentation
+[2016-01-16 11:36 PM UTC] bvtsang: For context (state of the blogs):
+-extension has 4533 messages in its inbox
+-discussion has 708 messages in its inbox
+-support has 2185 messages in its inbox
+[2016-01-16 11:37 PM UTC] nightpool: i.e. a replacement for http://xkit.info, basically.
+[2016-01-16 11:37 PM UTC] Wolvan: these numbers are killing me
+[2016-01-16 11:37 PM UTC] Wolvan: 👍 on that, @nightpool
+[2016-01-16 11:37 PM UTC] blackjackkent: Do we want to build an actual site?
+[2016-01-16 11:37 PM UTC] blackjackkent: (or maybe something something github.io)
+[2016-01-16 11:37 PM UTC] Wolvan: We could also just use tumblr's pages or a gh-pages
+[2016-01-16 11:37 PM UTC] 0xazure: @nightpool are you including dev API docs in that as well, or is it strictly general use documentation?
+[2016-01-16 11:37 PM UTC] Wolvan: I mean, we already are using gh-pages
+[2016-01-16 11:38 PM UTC] hobinjk: @blackjackkent 👍 a github.io subdirectory
+[2016-01-16 11:38 PM UTC] nightpool: @0xazure strictly general use docs
+[2016-01-16 11:38 PM UTC] Wolvan: we could have another subfolder for the dev docs though
+[2016-01-16 11:38 PM UTC] Wolvan: or I could try about setting up a readmydocs again
+[2016-01-16 11:38 PM UTC] Wolvan: the last time I tried it actually worked pretty well
+[2016-01-16 11:38 PM UTC] nightpool: To be honest, we don't have enough of an "API" to speak of for me to really be concerned about dev docs
+[2016-01-16 11:38 PM UTC] blackjackkent: @0xazure has been working on code documentation i think
+[2016-01-16 11:39 PM UTC] nightpool: That's more of something to think about when we start working on modularization
+[2016-01-16 11:39 PM UTC] ChuckL: We also have new-xkit.com and newxkit.com that we could use for that.
+[2016-01-16 11:39 PM UTC] ChuckL: So we can have a github page with a cname.
+[2016-01-16 11:39 PM UTC] 0xazure: We could use one of those domains with a custom CNAME on a gh-pages site.
+[2016-01-16 11:40 PM UTC] blackjackkent: could we hook new-xkit.com to something built via-- yes. That.
+[2016-01-16 11:40 PM UTC] blackjackkent: gmta 😛
+[2016-01-16 11:40 PM UTC] nightpool: wait wait let me get in on this
+[2016-01-16 11:40 PM UTC] nightpool: what if, stay with me here, we hooked up gh pages to a custom CNAME
+[2016-01-16 11:40 PM UTC] nightpool: with those domains
+[2016-01-16 11:40 PM UTC] blackjackkent: my god
+[2016-01-16 11:40 PM UTC] blackjackkent: you're right
+[2016-01-16 11:40 PM UTC] hobinjk: Would we want this as a separate repo or as a subdirectory of the XKit repo?
+[2016-01-16 11:41 PM UTC] 0xazure: Probably a separate repo
+[2016-01-16 11:41 PM UTC] ChuckL: a separate repo.  We're already using gh-pages for the extensions.
+[2016-01-16 11:41 PM UTC] nightpool: separate repo please
+[2016-01-16 11:41 PM UTC] blackjackkent: ...right, but shouldn't it be a separate repo?
+[2016-01-16 11:41 PM UTC] blackjackkent: 😉
+[2016-01-16 11:41 PM UTC] Wolvan: A seperate repo for the website only?
+[2016-01-16 11:41 PM UTC] ThePsionic: Well, GitHub kind of requires a <orgname>.github.io repo for that stuff
+[2016-01-16 11:41 PM UTC] Wolvan: 👍 to the seperate page repo
+[2016-01-16 11:42 PM UTC] nightpool: @ThePsionic you can do it in a gh-pages branch too
+[2016-01-16 11:42 PM UTC] nightpool: which we're currently doing for extensions
+[2016-01-16 11:42 PM UTC] ThePsionic: Well yeah
+[2016-01-16 11:42 PM UTC] nightpool: but yeah, I'm voting for new-xkit.github.io repo
+[2016-01-16 11:42 PM UTC] ThePsionic: But for a main website you'd want to use a new repo
+[2016-01-16 11:42 PM UTC] nightpool: @ThePsionic which is what most people agreed on, yeah. 😄
+[2016-01-16 11:42 PM UTC] 0xazure: 👍 `new-xkit.github.io` with a custom CNAME.
+[2016-01-16 11:43 PM UTC] hobinjk: Okay, circlejerking aside: https://github.com/new-xkit/organization/issues/5 and https://github.com/new-xkit/organization/issues/6 appear to be the main outcomes of this discussion point. Are there any other comments before we move on?
+[2016-01-16 11:43 PM UTC] blackjackkent: pfff
+[2016-01-16 11:43 PM UTC] Wolvan: nope, @hobinjk
+[2016-01-16 11:43 PM UTC] finagle29: none here
+[2016-01-16 11:43 PM UTC] ChuckL: As part of disaster recovery, should I add people part of XCloud to my namecheap account?
+[2016-01-16 11:43 PM UTC] Wolvan: hi @finagle29, also here?!
+[2016-01-16 11:44 PM UTC] blackjackkent: there are (potentially) children in the audience, @hobinjk
+[2016-01-16 11:44 PM UTC] Wolvan: can you do that, @ChuckL ?
+[2016-01-16 11:44 PM UTC] blackjackkent: 😉
+[2016-01-16 11:44 PM UTC] ChuckL: I should be able to.
+[2016-01-16 11:44 PM UTC] Wolvan: I'd say yes then
+[2016-01-16 11:44 PM UTC] hobinjk: Okay, now I would like to hear from each of you, briefly: 
+    - Where is New XKit succeeding?
+    - Where are we failing?
+    - How can we improve?
+[2016-01-16 11:45 PM UTC] nightpool: @ChuckL yeah getting the owners in there would be good
+[2016-01-16 11:45 PM UTC] blackjackkent: (@hobinjk maybe call people individually?)
+[2016-01-16 11:45 PM UTC] blackjackkent: (so we're not stepping on each other)
+[2016-01-16 11:45 PM UTC] hobinjk: Okay, alphabetical order
+[2016-01-16 11:45 PM UTC] nightpool: (also second the comment about children)
+[2016-01-16 11:45 PM UTC] hobinjk: @0xazure
+[2016-01-16 11:45 PM UTC] 0xazure: We're doing well with:
+ Turn-around times on fixes, working as a team (more than just 1 person) working on fixing/testing (ER is an excellent example)
+[2016-01-16 11:46 PM UTC] 0xazure: We're doing poorly with communication. We're too reliant on Gitter for decision-making that should really be on an issue
+[2016-01-16 11:46 PM UTC] 0xazure: Relevant parties are being left out of the loop / things are going out before they're reviewed
+[2016-01-16 11:46 PM UTC] 0xazure: Issues are easily buried / not followed up on
+[2016-01-16 11:46 PM UTC] 0xazure: We can improve by...
+[2016-01-16 11:46 PM UTC] 0xazure: Well, I'd like to see more label use.  Probably new labels, for better sorting
+[2016-01-16 11:47 PM UTC] 0xazure: Also, If you're working on an issue, assign it to yourself as well as comment on the issue that you'll look at it.
+[2016-01-16 11:47 PM UTC] 0xazure: I think that's it from me.
+[2016-01-16 11:47 PM UTC] hobinjk: Great. @blackjackkent ?
+[2016-01-16 11:48 PM UTC] hobinjk: (as far as I can tell this point exists to get the ideas out there, not to create new discussion items, please correct me if I'm wrong)
+[2016-01-16 11:48 PM UTC] blackjackkent: Seconded what @0xazure said about good teamwork for getting things out the door. Support handling has been great from what I"ve seen (i've been a little swamped and quieter than I'd like the last few weeks) and we're pretty well aware of the state of things in the tumblr-verse.
+[2016-01-16 11:49 PM UTC] bvtsang: It's to get the ideas out there, and possibly turn some of the "how can we improve" parts into items (that can be discussed later)
+[2016-01-16 11:50 PM UTC] blackjackkent: I think one thing that we've been a little bit poor on is prioritizing issues (i.e. what's something that needs to be worked on immediately vs what can wait).  So something we can improve is maybe being a bit more objective in addressing support requests/bug reports.
+[2016-01-16 11:50 PM UTC] blackjackkent: tag next person 😛
+[2016-01-16 11:50 PM UTC] hobinjk: @ChuckL
+[2016-01-16 11:51 PM UTC] ChuckL: Ha, for an ad-hoc team we're getting along pretty nicely.
+[2016-01-16 11:51 PM UTC] ChuckL: Little disappointed we haven't all gone to @blackjackkent for drinks and XKit-con.
+[2016-01-16 11:51 PM UTC] ChuckL: That's about it from me :p
+[2016-01-16 11:51 PM UTC] blackjackkent: 😉
+[2016-01-16 11:51 PM UTC] Wolvan: *applauds*
+[2016-01-16 11:51 PM UTC] blackjackkent: invitation stands
+[2016-01-16 11:52 PM UTC] hobinjk: @dlmarquis
+[2016-01-16 11:52 PM UTC] dlmarquis: Gonna second/third/fourth that we get along well and that's surprising and wonderful
+[2016-01-16 11:53 PM UTC] dlmarquis: Responding to Tumblr changes was something that we could've done better, given how we have Atesh's crazy response time to live up to
+[2016-01-16 11:54 PM UTC] dlmarquis: That's about it I think
+[2016-01-16 11:54 PM UTC] hobinjk: @finagle29
+[2016-01-16 11:55 PM UTC] finagle29: I think we've handled the Firefox signing crisis well (although I wasn't around much for a good deal of that) and in general keeping New XKit running and accepting contributions from users.
+[2016-01-16 11:56 PM UTC] finagle29: That being said, there's a bit of backlog in terms of PRs that need small changes or further discussion before they get reviewed, and there are a lot of unanswered asks in our inbox.
+[2016-01-16 11:56 PM UTC] finagle29: I think the issue with asks can be addressed by a Support group and people dedicated to answering asks on -support and the support channel
+[2016-01-16 11:58 PM UTC] finagle29: and maybe assigning people to review PRs/people taking responsibility for reviewing PRs and following up so that we don't have several month old PRs in some cases.
+[2016-01-16 11:58 PM UTC] finagle29: that's it from me
+[2016-01-16 11:58 PM UTC] hobinjk: Succeeding: Keeping XKit alive, even though it's hard
+Failing: Onboarding new contributors
+Improve: Frequency and delay of PR reviews
+[2016-01-16 11:58 PM UTC] hobinjk: @nightpool
+[2016-01-16 11:58 PM UTC] Wolvan: that was quick, wow
+[2016-01-16 11:59 PM UTC] hobinjk: I'm setting an example
+[2016-01-16 11:59 PM UTC] nightpool: haha
+[2016-01-16 11:59 PM UTC] nightpool: (sorry I was up for a sec)
+[2016-01-17 12:00 AM UTC] nightpool: I'm really super happy about how many developers we have and how much passion we have for the project in the team
+[2016-01-17 12:00 AM UTC] nightpool: I'm also really excited by how much uptake we have, even when stuff gets a little crazy (like with the firefox extension)
+[2016-01-17 12:01 AM UTC] nightpool: I think our biggest problem isn't really a very unique one, and its something all open source projects struggle with in a kind of "middle-age" slump
+[2016-01-17 12:01 AM UTC] nightpool: We have a lot of issues, and not a lot of people who are willing to fix them
+[2016-01-17 12:02 AM UTC] nightpool: Right now we have 10 pages of open github issues.
+[2016-01-17 12:02 AM UTC] nightpool: It seems like either stuff gets addressed almost immediately (which is awesome!) or it kinda lives forever in purgatory.
+[2016-01-17 12:03 AM UTC] nightpool: Same thing happens with PRs, which other people have mentioned
+[2016-01-17 12:03 AM UTC] nightpool: I'd also like to second @0xazure's points wrt Gitter and decision making
+[2016-01-17 12:04 AM UTC] nightpool: I think we can improve by doing more developer-facing outreach, although I'm not sure what form that would take. (Papercut project?)
+[2016-01-17 12:05 AM UTC] nightpool: I also think we can improve by onboarding people who really have a passion for the project, even if they don't have any coding experience, and having them help with Support stuff
+[2016-01-17 12:05 AM UTC] nightpool: (sorry I'm so long-winded guys 😓)
+[2016-01-17 12:05 AM UTC] Wolvan: is cool
+[2016-01-17 12:05 AM UTC] hobinjk: @ThePsionic
+[2016-01-17 12:05 AM UTC] ThePsionic: Succeeding: Unscrewing Tumblr
+[2016-01-17 12:06 AM UTC] ThePsionic: Failing: Addressing issues in a timely manner (refer to @nightpool)
+[2016-01-17 12:06 AM UTC] ThePsionic: Improving: Getting more members into the org
+[2016-01-17 12:06 AM UTC] hobinjk: @Wolvan
+[2016-01-17 12:06 AM UTC] Wolvan: Succeeding: Keep XKit alive, Keep the most used extensions working this well, Encourage involvement by others, amazing team to work with
+Failing: Working on the less used extension, keep up with support on the blogs, keep up with support in the live chat, too many open PRs, not actively fixing own PRs quick enough, too many issues that go unfixed
+Improving: Fix lesser used extensions, set priorities, keep up to date with open PRs, especially always keep someone's own PR ready and fix it once it's been reviewed, start the papercut project for lesser bugs, STOP USING TUMBLR
+[2016-01-17 12:07 AM UTC] hobinjk: @bvtsang
+[2016-01-17 12:09 AM UTC] bvtsang: Good: good team, we all work well together
+Bad: haven't reviewed issues much, there's a growing backlog of pull requests to look at
+To improve: milestones to provide overall direction (e.g. XKit 8.0.0), a group that can handle the support gitter and -support blog, and personally self-impose a rule where I can't write new code until I review X pull requests first
+[2016-01-17 12:09 AM UTC] hobinjk: self-imposed rule 👍
+[2016-01-17 12:09 AM UTC] hobinjk: Okay, let's move on to issue management, especially management using Waffle. @nightpool, as originator of this point, do you want to give a brief introduction?
+[2016-01-17 12:11 AM UTC] bvtsang: ...do you think @nightpool stepped out?
+[2016-01-17 12:12 AM UTC] hobinjk: Quite possibly, this is getting somewhat late
+[2016-01-17 12:12 AM UTC] blackjackkent: quick everyone wrap their desk in bubble wrap or something
+[2016-01-17 12:12 AM UTC] Wolvan: Guys. Stay professional
+[2016-01-17 12:12 AM UTC] blackjackkent: we can have jokes, Wolvan. it's cool.
+[2016-01-17 12:12 AM UTC] blackjackkent: lol
+[2016-01-17 12:12 AM UTC] hobinjk: Okay, in the interest of moving this forward, let's talk about the adoption of a code of conduct
+[2016-01-17 12:13 AM UTC] hobinjk: As originator of this discussion point, I believe we should draft a CoC based on http://todogroup.org/opencodeofconduct/ to be in a google doc shared on new-xkit, then officially ratified by a vote on an issue
+[2016-01-17 12:14 AM UTC] hobinjk: This issue would be "Adopt the code of conduct at <link to document>", and ideally would be unanimous
+[2016-01-17 12:14 AM UTC] blackjackkent: Do we want a google doc or a wiki page?
+[2016-01-17 12:14 AM UTC] hobinjk: Wiki page is even better, 👍
+[2016-01-17 12:15 AM UTC] 0xazure: I'd like to see the CoC added as part of the repo, either under the root, or under `docs/`.
+[2016-01-17 12:15 AM UTC] 0xazure: Given that we've kind of phased out the wiki for project documentation.
+[2016-01-17 12:16 AM UTC] bvtsang: The code of conduct seems like a thing that's not likely to change, so it doesn't make sense to store it in a wiki
+[2016-01-17 12:16 AM UTC] 0xazure: I'd almost like to see a GDoc for drafting, and then a PR that has the actual CoC to be merged into the project.
+[2016-01-17 12:16 AM UTC] finagle29: yeah and that way any changes will be shown in the PR preserving history of votes
+[2016-01-17 12:16 AM UTC] bvtsang: (where it can be easily and readily edited in the wiki)
+[2016-01-17 12:16 AM UTC] blackjackkent: hmm. okay, i feel that.
+[2016-01-17 12:16 AM UTC] hobinjk: GDoc for drafting with PR putting it into docs/ works for me
+[2016-01-17 12:16 AM UTC] blackjackkent: GDoc -> repo file
+[2016-01-17 12:16 AM UTC] blackjackkent: sounds good to me
+[2016-01-17 12:16 AM UTC] blackjackkent: 👍
+[2016-01-17 12:16 AM UTC] hobinjk: Or even the root
+[2016-01-17 12:16 AM UTC] 0xazure: I'd also like to submit that there are other CoCs we could take inspiration from, such as http://contributor-covenant.org/version/1/3/0/
+[2016-01-17 12:17 AM UTC] hobinjk: @0xazure Would you like to take ownership of creating the initial draft and creating an issue on https://github.com/new-xkit/organization/ ?
+[2016-01-17 12:17 AM UTC] 0xazure: Sure, I can do that.
+[2016-01-17 12:18 AM UTC] hobinjk: To move this along, I'd like to move further discussion to the eventual issue. Are there any objections?
+[2016-01-17 12:18 AM UTC] 0xazure: Sounds good to me 👍
+[2016-01-17 12:18 AM UTC] blackjackkent: none here
+[2016-01-17 12:18 AM UTC] finagle29: 👍
+[2016-01-17 12:18 AM UTC] bvtsang: 👍
+[2016-01-17 12:18 AM UTC] hobinjk: Okay, now for standardizing extension divergence. This actually already has an issue: https://github.com/new-xkit/XKit/issues/719
+[2016-01-17 12:19 AM UTC] hobinjk: Are there any objections to adopting this as our policy?
+[2016-01-17 12:19 AM UTC] 0xazure: I know @nightpool has some thoughts on this.
+[2016-01-17 12:20 AM UTC] Wolvan: I am OK with it, @hobinjk
+[2016-01-17 12:20 AM UTC] hobinjk: Okay, are there any objections to tabling this for future discussion on the issue page itself?
+[2016-01-17 12:20 AM UTC] blackjackkent: none here.
+[2016-01-17 12:20 AM UTC] Wolvan: nope
+[2016-01-17 12:20 AM UTC] bvtsang: 👍 for tabling
+[2016-01-17 12:20 AM UTC] finagle29: no objections from me
+[2016-01-17 12:20 AM UTC] hobinjk: Next point is "Explore the process of defining features for future releases/milestones"
+[2016-01-17 12:21 AM UTC] hobinjk: i.e., How do we determine when to release a new Extension version?
+[2016-01-17 12:21 AM UTC] Wolvan: honestly, I'd say bridge or xkit.js changes personally
+[2016-01-17 12:22 AM UTC] 0xazure: I'd also like to add what constitutes each number increment.  I.E. what makes something a major or minor point release?  Are we versioning for our internal use, or is the version number meant to be user-facing?
+[2016-01-17 12:22 AM UTC] 0xazure: To wit, would a major point release necessitate some kind of major user-facing change?
+[2016-01-17 12:22 AM UTC] Wolvan: as long as we use the current way xkit works, I'd say we stick to 7.x.x
+[2016-01-17 12:23 AM UTC] Wolvan: once the way xkit works is different (GMP for example), we go 8.x.x
+[2016-01-17 12:23 AM UTC] bvtsang: We could follow a milestone (e.g. https://github.com/new-xkit/XKit/milestones/v8.0.0) and once all the things are done there, we can release that new version
+[2016-01-17 12:23 AM UTC] Wolvan: and when we change XKit's inner workings again, 9.x.x
+[2016-01-17 12:23 AM UTC] 0xazure: @bvtsang right, but I think the point is how do we determine what goes into the (or a) milestone.
+[2016-01-17 12:24 AM UTC] bvtsang: @0xazure I'm indifferent to whether a major version is user-facing or not, as long as it signifies that a major amount of effort goes into the release
+[2016-01-17 12:24 AM UTC] nightpool: back! sorry guys my connection dropped for a bit there
+[2016-01-17 12:25 AM UTC] nightpool: I think a major version implement should correspond to some major user-facing change in how XKit works.
+[2016-01-17 12:26 AM UTC] nightpool: I don't think internal changes are big enough to qualify, if they keep the same semantics wrt installing extensions and whatever
+[2016-01-17 12:27 AM UTC] 0xazure: I'm personally not picky, as long as we have consensus as a team
+[2016-01-17 12:27 AM UTC] blackjackkent: i'm not picky at all 😛 don't have a particular dog in this race
+[2016-01-17 12:28 AM UTC] 0xazure: @nightpool so something that would be 8.0.0-worthy would be a major UI overhaul, or something to that effect?
+[2016-01-17 12:28 AM UTC] 0xazure: Or a change to how extensions are distributed/installed?
+[2016-01-17 12:28 AM UTC] nightpool: right
+[2016-01-17 12:28 AM UTC] nightpool: either of those
+[2016-01-17 12:29 AM UTC] hobinjk: I think this can be determined on a case-by-case basis in discussion on the PR that includes the version bump
+[2016-01-17 12:30 AM UTC] nightpool: @hobinjk what about milestones?
+[2016-01-17 12:30 AM UTC] nightpool: Where do we hash those out?
+[2016-01-17 12:30 AM UTC] bvtsang: In the org-specific repo, probably
+[2016-01-17 12:30 AM UTC] bvtsang: File an issue there, continue discussions/voting
+[2016-01-17 12:31 AM UTC] 0xazure: I'm not sure I like having that discussion in a separate repo.
+[2016-01-17 12:31 AM UTC] 0xazure: Maybe a meta-issue for a given milestone?
+[2016-01-17 12:31 AM UTC] bvtsang: I'm indifferent, as long as it's tracked in an issue
+[2016-01-17 12:31 AM UTC] 0xazure: And we could create a new tag for those.
+[2016-01-17 12:31 AM UTC] nightpool: @0xazure down for a meta issue for a given milestone
+[2016-01-17 12:32 AM UTC] 0xazure: So all discussion on, say, 7.8.0, would happen on the meta issue, and progress would be tracked through the 7.8.0 milestone.
+[2016-01-17 12:32 AM UTC] ThePsionic: Agreed @0xazure
+[2016-01-17 12:32 AM UTC] 0xazure: I don't think we need to go that fine-grained with patch releases, but I could be wrong?
+[2016-01-17 12:33 AM UTC] 0xazure: Like, should we be creating milestones for patch releases as well?
+[2016-01-17 12:33 AM UTC] bvtsang: For minor versions, probably not for patch versions
+[2016-01-17 12:33 AM UTC] nightpool: no, patch releases are fine to not track
+[2016-01-17 12:33 AM UTC] bvtsang: oh?
+[2016-01-17 12:34 AM UTC] nightpool: sorry forgot that bit
+[2016-01-17 12:34 AM UTC] nightpool: 😄
+[2016-01-17 12:34 AM UTC] bvtsang: okay 😄
+[2016-01-17 12:34 AM UTC] 0xazure: And how does that flow into the branching model?  Do we create a new branch for a milestone, and then target PRs at that branch?
+[2016-01-17 12:34 AM UTC] nightpool: um the other question is—how much does this affect stuff like xkit.js vs xkit_patches?
+[2016-01-17 12:34 AM UTC] nightpool: we need to deal with that technical debt some time
+[2016-01-17 12:35 AM UTC] nightpool: yeah @0xazure if the change is significant enough to need a milestone, it should also need a patch
+[2016-01-17 12:36 AM UTC] 0xazure: Okay, so consensus is the existing 8.0.0 milestone is dead in the water, and we should re-orient based on a more careful selection of things to go into 7.8.0?
+[2016-01-17 12:37 AM UTC] 0xazure: Having started the 8.0.0 milestone, I'm totally fine with the above
+[2016-01-17 12:37 AM UTC] nightpool: 👍
+[2016-01-17 12:37 AM UTC] hobinjk: 👍
+[2016-01-17 12:37 AM UTC] Wolvan: wasn't 8.0.0 the after GMP milestone?
+[2016-01-17 12:37 AM UTC] blackjackkent: 👍
+[2016-01-17 12:37 AM UTC] finagle29: 👍
+[2016-01-17 12:37 AM UTC] Wolvan: or was that all just stuff we want to have in xkit
+[2016-01-17 12:37 AM UTC] 0xazure: @Wolvan going to talk about GMP next 😛
+[2016-01-17 12:37 AM UTC] hobinjk: The GMP happens to be the next discussion point
+[2016-01-17 12:38 AM UTC] ThePsionic: What about the waffle thing?
+[2016-01-17 12:38 AM UTC] ThePsionic: We skipped it because @nightpool was away, but it's still a valid point of discussion imo
+[2016-01-17 12:38 AM UTC] 0xazure: Let's finish off this section and then circle back to issue management.
+[2016-01-17 12:38 AM UTC] nightpool: 👍 to @0xazure
+[2016-01-17 12:38 AM UTC] ThePsionic: All right, fair enough
+[2016-01-17 12:39 AM UTC] 0xazure: GMP should be the last point here.
+[2016-01-17 12:39 AM UTC] 0xazure: Which.. I guess I'll lead in to, if we're done with feature definition?
+[2016-01-17 12:39 AM UTC] nightpool: sounds good to me
+[2016-01-17 12:40 AM UTC] nightpool: @hobinjk ?
+[2016-01-17 12:40 AM UTC] hobinjk: Yes
+[2016-01-17 12:40 AM UTC] 0xazure: Okay.  So since I was kind of spearheading GMP (with assistance from @blackjackkent), I thought I'd bring everyone up to speed as best as I can
+[2016-01-17 12:40 AM UTC] 0xazure: At its inception, it started off as maybe a way to resolve the FireFox issues (#216, etc), but that turned out to be too broad of a scope.
+[2016-01-17 12:41 AM UTC] 0xazure: And we've already mitigated most of the FF issues, at least for the time being.
+[2016-01-17 12:41 AM UTC] 0xazure: Further consideration also lead to the realization that they're pretty orthogonal.  That is, GMP isn't _strictly_ a means to resolve the FF problems.
+[2016-01-17 12:41 AM UTC] 0xazure: It's something that I'd like to see happen regardless.
+[2016-01-17 12:42 AM UTC] 0xazure: So, the way I see it, GMP now is an attempt to reduce duplication, consolidate and re-organize project structure (predominantly core files), but without introducing new functionality
+[2016-01-17 12:42 AM UTC] Wolvan: commonjs is always nice
+[2016-01-17 12:42 AM UTC] Wolvan: that was part of the GMP as well, right?
+[2016-01-17 12:42 AM UTC] 0xazure: Ideally, we'll be leveraging the CommonJS module spec as found in NodeJS and the npm ecosystem (Webpack/Browserify) in the build chain
+[2016-01-17 12:42 AM UTC] nightpool: I have some thoughts on this, but are you still going with your intro?
+[2016-01-17 12:42 AM UTC] 0xazure: But this is going to be a long-running project, as I'd also like to work on documenting a lot of the XKit internals as I go.
+[2016-01-17 12:43 AM UTC] Wolvan: so each xkit extension will be a commonjs complient pice now?
+[2016-01-17 12:43 AM UTC] 0xazure: Our current documentation is kind of... awful, to say the least.
+[2016-01-17 12:43 AM UTC] 0xazure: @hobinjk and I have already started working on documenting some of our support tools in the JSDoc format so we can generate automatic documentation
+[2016-01-17 12:43 AM UTC] 0xazure: And I'd like to see this throughout the XKit codebase.
+[2016-01-17 12:44 AM UTC] 0xazure: I think that's it from me, @blackjackkent anything to add?
+[2016-01-17 12:44 AM UTC] blackjackkent: Nope, I think that covers the situation. (as mentioned before I've been a little out of it the last few weeks dealing with RL stuff, but i'm definitely still in to contribute to this project)
+[2016-01-17 12:46 AM UTC] nightpool: So, to start off with, I've been working with browserify a lot because I've been deep diving the tumblr JS internals. It doesn't match up very well with the requirements or needs of XKit in its current form, and I think it might be better to explore writing our own lightweight loader that matches our current extension loading a little closer
+[2016-01-17 12:47 AM UTC] nightpool: thoughts?
+[2016-01-17 12:47 AM UTC] 0xazure: @nightpool can you elaborate?  I see us compiling the core files when building a new release, I'm not looking to do hot module reloading or anything like that
+[2016-01-17 12:48 AM UTC] 0xazure: Basically, instead of the monstrous files we have currently (looking at xkit_patches), we modularize it and make smaller files.
+[2016-01-17 12:48 AM UTC] nightpool: @0xazure specifically if we want to get extensions into modules
+[2016-01-17 12:48 AM UTC] 0xazure: I think that's a different discussion
+[2016-01-17 12:48 AM UTC] nightpool: I wasn't talking about patches or anything
+[2016-01-17 12:48 AM UTC] blackjackkent: I think we're leaning away from that now that it's not required to stay on mozilla
+[2016-01-17 12:48 AM UTC] blackjackkent: talking more about modularizing the core to make it less monolithic
+[2016-01-17 12:48 AM UTC] 0xazure: GMP would be looking structly at the XKit god object and related methods.
+[2016-01-17 12:48 AM UTC] Wolvan: Personally, I'd prefer our extensions being commonjs compliant, but eh
+[2016-01-17 12:49 AM UTC] 0xazure: I think that we definitely need to re-evaluate how we load our modules, but that would be separate from GMP.
+[2016-01-17 12:49 AM UTC] Wolvan: also, would we split xkit_patches
+[2016-01-17 12:49 AM UTC] nightpool: Hmm, ok, but would each module be its own separately loaded piece? (like _patches is now) or would they all be loaded by the extension?
+[2016-01-17 12:49 AM UTC] Wolvan: should we have more internal extensions instead of the massive _patches
+[2016-01-17 12:50 AM UTC] 0xazure: @nightpool not sure I follow what you mean
+[2016-01-17 12:50 AM UTC] nightpool: (and lose the benefit of fast response to tumblr api changes)
+[2016-01-17 12:50 AM UTC] 0xazure: Oh, you mean package all of the extensions into a release?
+[2016-01-17 12:50 AM UTC] nightpool: not all of them
+[2016-01-17 12:50 AM UTC] nightpool: the core stuff
+[2016-01-17 12:50 AM UTC] nightpool: \/The API stuff
+[2016-01-17 12:51 AM UTC] Wolvan: I don't really like it, since we would lose what makes xkit so special: Our extremely fast response times
+[2016-01-17 12:51 AM UTC] 0xazure: We definitely want to keep the quick release times.
+[2016-01-17 12:51 AM UTC] nightpool: like—I don't know about webpack, but browserify requires everything that's going to be loading its modules to be compiled at the same time
+[2016-01-17 12:51 AM UTC] nightpool: there's no way for non-compiled code (the extensions) to use broserify packed stuff well as far as I can tell
+[2016-01-17 12:51 AM UTC] nightpool: because of how the scoping works.
+[2016-01-17 12:52 AM UTC] 0xazure: Right.  I'm not exactly suggesting we compile in all of the `xkit_*` extensions into a release.
+[2016-01-17 12:52 AM UTC] 0xazure: Because yeah, we'd lose the quick updates.
+[2016-01-17 12:52 AM UTC] Wolvan: Could we build our own CommonJS loader? One that does not have to compile it all into the extension?
+[2016-01-17 12:52 AM UTC] hobinjk: I think defining the scope of the GMP is a better goal for this discussion than nailing down the technical details
+[2016-01-17 12:52 AM UTC] blackjackkent: ^
+[2016-01-17 12:53 AM UTC] 0xazure: @nightpool there's still a lot of prototyping I'd like to do that neither I nor @blackjackkent have really had time.
+[2016-01-17 12:53 AM UTC] blackjackkent: For right now I believe the intended scope of the GMP is purely centered around improving the code modularity within the XKit core files.
+[2016-01-17 12:53 AM UTC] 0xazure: And our hands are a bit tied in terms of existing infrastructure.
+[2016-01-17 12:54 AM UTC] 0xazure: Like @hobinjk said, we can take technical discussion offline, and I'd definitely value your input, @nightpool
+[2016-01-17 12:54 AM UTC] nightpool: can we define "xkit core files" a bit more explicitly? When you say that, I'm thinking about the API that extensions use (XKit.interface)
+[2016-01-17 12:54 AM UTC] Wolvan: @blackjackkent XKit core as in the xkit.js and bridges without the extensions, right?
+[2016-01-17 12:54 AM UTC] nightpool: as that seems to be the biggest mess right now
+[2016-01-17 12:54 AM UTC] nightpool: as long as the other misc stuff in patches
+[2016-01-17 12:54 AM UTC] 0xazure: @nightpool "core" as in everything that gets packaged with an extension release.
+[2016-01-17 12:54 AM UTC] Wolvan: basically what we currently compile into the extension
+[2016-01-17 12:54 AM UTC] 0xazure: At least for now.
+[2016-01-17 12:54 AM UTC] blackjackkent: I'm meaning things that aren't specific to an extension, yeah.
+[2016-01-17 12:55 AM UTC] 0xazure: I'll definitely work on drafting some design docs so there's a clearer picture though.
+[2016-01-17 12:55 AM UTC] nightpool: @0xazure how much code can that really be though? Besides (some of) extension loading and a few other stuff, almost *everything* in xkit.js gets overridden in xkit_patches
+[2016-01-17 12:56 AM UTC] nightpool: I think the two main things that aren't are extension storage and extension installation
+[2016-01-17 12:57 AM UTC] 0xazure: Writing a build step to compile `xkit_patches` from a set of modules would be pretty trivial.
+[2016-01-17 12:57 AM UTC] 0xazure: We can still distribute it as an extension update through the usual mechanism.
+[2016-01-17 12:57 AM UTC] nightpool: anyway, yeah we're probably getting in too deep here
+[2016-01-17 12:58 AM UTC] nightpool: I think we should table this pending a formal design document
+[2016-01-17 12:58 AM UTC] 0xazure: Sounds good.
+[2016-01-17 12:58 AM UTC] hobinjk: 👍
+[2016-01-17 12:58 AM UTC] blackjackkent: 👍
+[2016-01-17 12:58 AM UTC] ThePsionic: 👍
+[2016-01-17 12:59 AM UTC] hobinjk: Now briefly going back to issue management, from before: "Okay, let's move on to issue management, especially management using Waffle. @nightpool, as originator of this point, do you want to give a brief introduction?"
+[2016-01-17 01:01 AM UTC] nightpool: Yeah. There were a few components to this one. One of the things is that we have a pretty significant amount of waffle related spam that doesn't really seem to serve a lot of purpose for most people. Waffle requires its own issues and its own workflow, and I don't think its one that works particularly well for this team.
+
+So my question is, can we kinda do a (quick) run through of what we want issues and pull requests to look like on Github in general, and specifically whether we still need to support Waffle?
+[2016-01-17 01:02 AM UTC] nightpool: For example, people are very lax about tagging issues—especially specific extensions. Is this something we should be enforcing more?
+[2016-01-17 01:02 AM UTC] 0xazure: I'm definitely on board with ditching Waffle.  We've run into some issues with Waffle control labels, and having to dual-label stuff because the control  labels get removed when things change columns.
+[2016-01-17 01:02 AM UTC] blackjackkent: I'll admit -- i was a big fan of the waffle workflow at first but i haven't really looked at it at all lately.
+[2016-01-17 01:02 AM UTC] blackjackkent: So I'd be on board with ditching that.
+[2016-01-17 01:02 AM UTC] 0xazure: I think it overcomplicates tagging too much.
+[2016-01-17 01:02 AM UTC] Wolvan: yeah, 👍 for dropping waffle
+[2016-01-17 01:02 AM UTC] ChuckL: Yup, ditto.
+[2016-01-17 01:02 AM UTC] bvtsang: 👍 for dropping waffle
+[2016-01-17 01:03 AM UTC] finagle29: 👍 for ditching waffle
+[2016-01-17 01:03 AM UTC] ThePsionic: I personally haven't used Waffle in forever. I have however found an alternative called ZenHub, which inlines into GitHub. I'm not sure how it behaves as compared to Waffle, but Waffle is more of a pain in the ass than anything - ZenHub is the alternative if something similar is still wanted.
+[2016-01-17 01:03 AM UTC] bvtsang: If we drop waffle, we'll also have to remove the waffle link from the top of -support
+[2016-01-17 01:03 AM UTC] hobinjk: 👍 I would like a general guide for reporting issues that goes through issue tags and their meanings.
+[2016-01-17 01:03 AM UTC] nightpool: On the general point, are we happy with our current set of github labels?
+[2016-01-17 01:03 AM UTC] blackjackkent: Extension-specific labels are defintiely important
+[2016-01-17 01:04 AM UTC] blackjackkent: they've been useful for me on a number of occasions for finding specific things
+[2016-01-17 01:04 AM UTC] nightpool: (@bvtsang yeah, and de-auth it and remove the labels—that's all stuff for a follow up issue)
+[2016-01-17 01:04 AM UTC] Wolvan: I am never sure if only issues get labeled with extensions or also the PRs
+[2016-01-17 01:04 AM UTC] nightpool: I agree, @blackjackkent
+[2016-01-17 01:04 AM UTC] 0xazure: I'd like to see more labels for indicating state of issues/PRs.
+[2016-01-17 01:05 AM UTC] 0xazure: Waffle's currently got control of ones like "needs review", and I think that keeping those, but managing them more manually would be much easier.
+[2016-01-17 01:05 AM UTC] 0xazure: Other things, like "WIP", would help prevent pre-mature merges, I think.
+[2016-01-17 01:05 AM UTC] hobinjk: There's "in progress" for that
+[2016-01-17 01:06 AM UTC] nightpool: I'd like to leave this discussion with a complete list of all of the major state labels we'd like to require going forward
+[2016-01-17 01:06 AM UTC] 0xazure: to be honest, I don't think "in progress" is all that clear.  _What_ is in progress.
+[2016-01-17 01:07 AM UTC] bvtsang: If you want to distinguish what's in progress, you could add WIP to the title of the PR
+[2016-01-17 01:07 AM UTC] bvtsang: and if it's not there, you can assume it's that the dev is working on fixing the review comments
+[2016-01-17 01:07 AM UTC] 0xazure: I think that documenting how we use the labels is important.
+[2016-01-17 01:08 AM UTC] 0xazure: Browser/extension ones are kind of straight-forward, it's the other ones that could use clarification.
+[2016-01-17 01:08 AM UTC] nightpool: obviously the more off-beat stuff like "Tumblr's Fault" will always be more idiosyncratic in assignment, but I agree that we should really hash out the major ones and document it
+[2016-01-17 01:08 AM UTC] Wolvan: should we use emotes to show state of a PR
+[2016-01-17 01:08 AM UTC] Wolvan: there was a repo like this wasn't there
+[2016-01-17 01:08 AM UTC] blackjackkent: heh, there was, but i don't think we need that in our case
+[2016-01-17 01:09 AM UTC] hobinjk: I would prefer to table this in favor of an issue on new-xkit/XKit to determine a set of issue labels to use
+[2016-01-17 01:09 AM UTC] blackjackkent: ^
+[2016-01-17 01:09 AM UTC] 0xazure: Should probably be post-removal of Waffle.
+[2016-01-17 01:09 AM UTC] hobinjk: (Given that this is 3 hours and counting)
+[2016-01-17 01:09 AM UTC] nightpool: yeah, that's fine
+[2016-01-17 01:10 AM UTC] hobinjk: Okay, now for a brief report on the state of the platforms
+[2016-01-17 01:10 AM UTC] 0xazure: @nightpool you want to handle the issue for label discussion?
+[2016-01-17 01:12 AM UTC] nightpool: (@0xazure sure)
+[2016-01-17 01:12 AM UTC] hobinjk: Safari is still in review, I've submitted again a few days ago because Safari updated. Firefox is great and read https://github.com/new-xkit/XKit/issues/216 for more about signing. Chrome is great.
+[2016-01-17 01:13 AM UTC] hobinjk: If Safari continues being awful I'll escalate to Apple's support
+[2016-01-17 01:13 AM UTC] blackjackkent: Opera exists.
+[2016-01-17 01:13 AM UTC] Wolvan: You can install chrome's file on Opera
+[2016-01-17 01:13 AM UTC] Wolvan: and the store won't let us in because of the same stuff with firefox
+[2016-01-17 01:13 AM UTC] hobinjk: Opera and Pale Moon exist and will be discussed in the future as they are not on the agenda
+[2016-01-17 01:14 AM UTC] hobinjk: Mobile sort of exists
+[2016-01-17 01:14 AM UTC] hobinjk: @dlmarquis
+[2016-01-17 01:14 AM UTC] hobinjk: Apparently @dlmarquis 's computer froze
+[2016-01-17 01:14 AM UTC] ThePsionic: RIP
+[2016-01-17 01:14 AM UTC] hobinjk: @dlmarquis says "It's happening, there's really nothing else about it. Until people badger me about it I will assume I'm the only user"
+[2016-01-17 01:15 AM UTC] nightpool: that seems like a good segue into analytics.
+[2016-01-17 01:15 AM UTC] hobinjk: Great lets do it
+[2016-01-17 01:15 AM UTC] hobinjk: Analytics, anyone?
+[2016-01-17 01:15 AM UTC] nightpool: Um, its probably the most important of my back-burner projects
+[2016-01-17 01:16 AM UTC] nightpool: the main blocker is that all of the very good website analytics are paid
+[2016-01-17 01:16 AM UTC] nightpool: and the free ones don't really work well with how our extension is structured
+[2016-01-17 01:16 AM UTC] Wolvan: and GAnalytics are barely usable
+[2016-01-17 01:16 AM UTC] Wolvan: for our purposes
+[2016-01-17 01:17 AM UTC] nightpool: I've had some ideas lately about how to hack around the limitations in google analytics
+[2016-01-17 01:17 AM UTC] 0xazure: There's also self-reporting, as was brought up in https://github.com/new-xkit/XKit/issues/730
+[2016-01-17 01:17 AM UTC] nightpool: but it would be pretty fricken hacky and I haven't written a prototype yet to test how good the reporting is
+[2016-01-17 01:17 AM UTC] ChuckL: Have you looked into Amazon mobile Analytics?
+[2016-01-17 01:18 AM UTC] nightpool: no it wasn't on my radar at all actually
+[2016-01-17 01:19 AM UTC] ChuckL: Yeah, if that looks good to you I could add it to my AWS account.
+[2016-01-17 01:19 AM UTC] ChuckL: Pricing seems fair
+[2016-01-17 01:19 AM UTC] ChuckL: 100 million events per month for free
+[2016-01-17 01:19 AM UTC] ChuckL: $1 / million after that.
+[2016-01-17 01:19 AM UTC] Wolvan: and what is one event
+[2016-01-17 01:20 AM UTC] Wolvan: because we have 300k alone on chrome
+[2016-01-17 01:20 AM UTC] ChuckL: Yeah, that's something that we would probably define.
+[2016-01-17 01:20 AM UTC] blackjackkent: was just gonna say that
+[2016-01-17 01:20 AM UTC] nightpool: yeah I don't know if that would work out super well for us
+[2016-01-17 01:20 AM UTC] blackjackkent: 100 million might not carry us that far, depending on what we track
+[2016-01-17 01:20 AM UTC] bvtsang: And what would we track? Installs?
+[2016-01-17 01:20 AM UTC] nightpool: I think the best bet is to roll out some very bare-bones stuff on GA because we know its free
+[2016-01-17 01:20 AM UTC] Wolvan: extension usage?
+[2016-01-17 01:20 AM UTC] nightpool: and then go from there
+[2016-01-17 01:20 AM UTC] Wolvan: installed extensions?
+[2016-01-17 01:21 AM UTC] nightpool: @bvtsang installed extensions, extension usage, usage patterns.
+[2016-01-17 01:22 AM UTC] hobinjk: Obligatory note that we should add a statement to the Extension that we have begun invading user privacy
+[2016-01-17 01:22 AM UTC] nightpool: yeah
+[2016-01-17 01:22 AM UTC] 0xazure: We could probably start with a self-reported route initially while we flesh out the autoamted analytics.  Stuff like browser(s), which extensions, things they use the most, etc.
+[2016-01-17 01:22 AM UTC] bvtsang: Unless they want to opt out?
+[2016-01-17 01:22 AM UTC] 0xazure: We've had pretty good traction with posts before.
+[2016-01-17 01:22 AM UTC] Wolvan: we can just have a switch in other
+[2016-01-17 01:23 AM UTC] nightpool: @0xazure I don't really know though if we'll get much more from surveys then we already get from just observing our ask box and support channels
+[2016-01-17 01:23 AM UTC] 0xazure: @nightpool more about having that information centralized, I guess.
+[2016-01-17 01:23 AM UTC] 0xazure: An easy-to-refer-to spreadsheet or something, unless we want to start tracking that manually.
+[2016-01-17 01:24 AM UTC] 0xazure: @Wolvan do you still have a draft for the survey somewhere?
+[2016-01-17 01:24 AM UTC] nightpool: that's fair
+[2016-01-17 01:24 AM UTC] Wolvan: I uhm
+[2016-01-17 01:24 AM UTC] Wolvan: lemme check?
+[2016-01-17 01:24 AM UTC] Wolvan: yeah I do
+[2016-01-17 01:24 AM UTC] Wolvan: https://docs.google.com/forms/d/1ANPNHqQv_baQWnZa8Pl0N-rTSBwnr4-oqsxBn_p2pw4/viewform
+[2016-01-17 01:24 AM UTC] 0xazure: So let's get that rolling again, at least in the interm.
+[2016-01-17 01:25 AM UTC] 0xazure: Again, discussion over on https://github.com/new-xkit/XKit/issues/730
+[2016-01-17 01:25 AM UTC] hobinjk: @0xazure 👍
+[2016-01-17 01:25 AM UTC] hobinjk: Any further comments?
+[2016-01-17 01:25 AM UTC] finagle29: none here
+[2016-01-17 01:26 AM UTC] nightpool: that's all I had as far as analytics
+[2016-01-17 01:26 AM UTC] hobinjk: Okay, now for the Papercut Project, our final discussion item
+[2016-01-17 01:26 AM UTC] hobinjk: @bvtsang Do you want to introduce it?
+[2016-01-17 01:26 AM UTC] bvtsang: sure
+[2016-01-17 01:27 AM UTC] bvtsang: So this is in reference to Ubuntu's 100 papercuts project, where the goal is to fix all the small, annoying issues
+[2016-01-17 01:27 AM UTC] bvtsang: https://wiki.ubuntu.com/One%20Hundred%20Papercuts/Mission
+[2016-01-17 01:28 AM UTC] bvtsang: By doing this, we can take care of a ton of little things, fix technical debt, etc. while also potentially bring in new developers who are interested in fixing small bugs
+[2016-01-17 01:28 AM UTC] bvtsang: I was curious whether this is something we would be interested in doing, like maybe dedicate one month to be a papercut month or something
+[2016-01-17 01:29 AM UTC] blackjackkent: I would certainly be down for this
+[2016-01-17 01:29 AM UTC] Wolvan: why just a month?
+[2016-01-17 01:29 AM UTC] 0xazure: I definitely like the idea, but I feel we'd need someone (or someones) to really take the lead on it, particularly for identifying issues and labelling them so they're easy to find.
+[2016-01-17 01:29 AM UTC] nightpool: I definitely down for anything that's a dev outreach project
+[2016-01-17 01:29 AM UTC] hobinjk: I like the idea of targetting the initiative to a specific month because #branding
+[2016-01-17 01:29 AM UTC] 0xazure: I'd definitely like to see new labels for this, "quick wins" or something along those lines.
+[2016-01-17 01:30 AM UTC] blackjackkent: also the fact that we can do it for a month, see how it works, modify our approach, etc.
+[2016-01-17 01:30 AM UTC] blackjackkent: #agile
+[2016-01-17 01:30 AM UTC] Wolvan: sounds fair
+[2016-01-17 01:30 AM UTC] Wolvan: and how will we announce it?
+[2016-01-17 01:30 AM UTC] ThePsionic: 👍 so far
+[2016-01-17 01:30 AM UTC] Wolvan: how will we make people know about it
+[2016-01-17 01:30 AM UTC] blackjackkent: extension blog, I would think
+[2016-01-17 01:30 AM UTC] ThePsionic: -extension blog
+[2016-01-17 01:30 AM UTC] blackjackkent: same as we do other announcmeents
+[2016-01-17 01:30 AM UTC] blackjackkent: *annoumcents
+[2016-01-17 01:30 AM UTC] blackjackkent: ...posts
+[2016-01-17 01:30 AM UTC] ThePsionic: hah
+[2016-01-17 01:31 AM UTC] Wolvan: would that be enough? I'd suggest paperboy, but that ain't ready
+[2016-01-17 01:31 AM UTC] nightpool: I'd like to think about starting a -dev blog
+[2016-01-17 01:31 AM UTC] nightpool: I think it might be useful for outreach
+[2016-01-17 01:31 AM UTC] bvtsang: Things we could do to make this happen:
+- label bugs/issues that are quick, small fixes
+- write documentation (or refer to existing documentation)  on how to make good PRs, what the merge/approval process is for XKit, how to find things to fix
+- write a post on -extension advertising this
+[2016-01-17 01:31 AM UTC] nightpool: but I'd like to have some sort of ideas on what to put there before committing to it
+[2016-01-17 01:32 AM UTC] hobinjk: For now -extension sounds good, with more frequent advertisements and progress reports on -discussion
+[2016-01-17 01:32 AM UTC] 0xazure: We can always circle things through the Gitter chats, there seems to be decent uptake there with people interested in dev.
+[2016-01-17 01:32 AM UTC] nightpool: ^
+[2016-01-17 01:32 AM UTC] Wolvan: could we turn this into a competition
+[2016-01-17 01:32 AM UTC] Wolvan: no price, but just count who did how many PRs accepted
+[2016-01-17 01:32 AM UTC] blackjackkent: i'd be against that
+[2016-01-17 01:32 AM UTC] 0xazure: @bvtsang are you down for taking the lead on Papercut?
+[2016-01-17 01:32 AM UTC] bvtsang: I prefer not to
+[2016-01-17 01:33 AM UTC] bvtsang: (for competition, that is)
+[2016-01-17 01:33 AM UTC] blackjackkent: quality over quantity
+[2016-01-17 01:33 AM UTC] Wolvan: yeah, was just a side idea
+[2016-01-17 01:33 AM UTC] bvtsang: But yeah, I could take the lead on the Papercut project
+[2016-01-17 01:33 AM UTC] nightpool: i dunno. competetion is sounding interesting for me
+[2016-01-17 01:33 AM UTC] nightpool: esp if we include "bugs reported" with "bugs fixed" and are still able to maintain a strong standard for quality.
+[2016-01-17 01:33 AM UTC] hobinjk: I think a competition could have the effect of discouraging people who don't think they could win from participating
+[2016-01-17 01:34 AM UTC] Wolvan: fair point
+[2016-01-17 01:34 AM UTC] nightpool: @hobinjk that's a good point
+[2016-01-17 01:34 AM UTC] hobinjk: We just need to bake a cake made out of rainbows and smiles
+[2016-01-17 01:34 AM UTC] blackjackkent: ^
+[2016-01-17 01:34 AM UTC] ThePsionic: 🌈 😄 🍰
+[2016-01-17 01:34 AM UTC] nightpool: but to @blackjackkent's message, I think kinda the *whole point* of papercut is that—sometimes—it makes sense to look at quantity > quality
+[2016-01-17 01:35 AM UTC] blackjackkent: okay. fair enough.
+[2016-01-17 01:35 AM UTC] 0xazure: For the little fixes, yeah.
+[2016-01-17 01:35 AM UTC] blackjackkent: i think @hobinjk 's point is still valid though
+[2016-01-17 01:35 AM UTC] nightpool: @0xazure right, and that's the scope of papercut 😄
+[2016-01-17 01:35 AM UTC] Wolvan: we could just say "Honorable mentions to XXX for doing YYY fixes this month"
+[2016-01-17 01:35 AM UTC] Wolvan: As I said, no prices or anything
+[2016-01-17 01:35 AM UTC] Wolvan: just being mentioned
+[2016-01-17 01:35 AM UTC] blackjackkent: yeah, no reason we couldn't give people shoutouts or what not
+[2016-01-17 01:36 AM UTC] 0xazure: I think some kind of post once the month was over with the participants' names would be pretty cool, yeah.
+[2016-01-17 01:36 AM UTC] 0xazure: In terms of recognition.  Doesn't have to have the stamp of "competition" on it.
+[2016-01-17 01:37 AM UTC] Wolvan: Yeah, that's what I meant by competition
+[2016-01-17 01:37 AM UTC] Wolvan: "And this month, the following users helped the most with papercut: XXX with YYY PRs....."
+[2016-01-17 01:37 AM UTC] hobinjk: 👍
+[2016-01-17 01:37 AM UTC] blackjackkent: that'd be cool, yeah
+[2016-01-17 01:38 AM UTC] nightpool: Okay, looks like we're wrapping up on our agenda? @hobinjk did you have any plans to bring up stuff from before or should we go to Q&A?
+[2016-01-17 01:38 AM UTC] hobinjk: Nope, let's Q&A
+[2016-01-17 01:38 AM UTC] nightpool: Cool. I'll change the permissions
